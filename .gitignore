@@ -1,0 +1,37 @@
+# Unity 產生的檔案
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Bb]uild/
+[Bb]uilds/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+TestResults/
+
+# 編輯器與 IDE
+.vs/
+.idea/
+*.csproj
+*.sln
+*.slnx
+*.user
+*.userprefs
+*.pidb
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.unityproj
+
+# 本機設定與暫存
+.env
+.env.*
+!.env.example
+/tmp/
+/temp/
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
