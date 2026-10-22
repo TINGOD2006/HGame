@@ -1,0 +1,4108 @@
+fileFormatVersion: 2
+guid: 4637d228d25515b4dbe642fab83e8079
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7419532149934703982
+    second: heroine-walk-sheet_0
+  - first:
+      213: 6807634980486767744
+    second: heroine-walk-sheet_1
+  - first:
+      213: -2808943047822371893
+    second: heroine-walk-sheet_2
+  - first:
+      213: -8007565122944083532
+    second: heroine-walk-sheet_3
+  - first:
+      213: 1125523237687565995
+    second: heroine-walk-sheet_4
+  - first:
+      213: 1085028830938807551
+    second: heroine-walk-sheet_5
+  - first:
+      213: 6640741260404562336
+    second: heroine-walk-sheet_6
+  - first:
+      213: 8427234197741804328
+    second: heroine-walk-sheet_7
+  - first:
+      213: -4831237707896651085
+    second: heroine-walk-sheet_8
+  - first:
+      213: -831772228139745103
+    second: heroine-walk-sheet_9
+  - first:
+      213: -3413481556085893677
+    second: heroine-walk-sheet_10
+  - first:
+      213: 604853495455061129
+    second: heroine-walk-sheet_11
+  - first:
+      213: 6298530105046672492
+    second: heroine-walk-sheet_12
+  - first:
+      213: -9032878644373401557
+    second: heroine-walk-sheet_13
+  - first:
+      213: 5702426824398553433
+    second: heroine-walk-sheet_14
+  - first:
+      213: -53043204603538218
+    second: heroine-walk-sheet_15
+  - first:
+      213: -6402366424872178236
+    second: heroine-walk-sheet_16
+  - first:
+      213: -8530177798333717912
+    second: heroine-walk-sheet_17
+  - first:
+      213: -5577347676055051095
+    second: heroine-walk-sheet_18
+  - first:
+      213: -1946054764395303994
+    second: heroine-walk-sheet_19
+  - first:
+      213: -3156043769485597028
+    second: heroine-walk-sheet_20
+  - first:
+      213: 6023126305382597677
+    second: heroine-walk-sheet_21
+  - first:
+      213: 6696874195512952878
+    second: heroine-walk-sheet_22
+  - first:
+      213: -1519273950693623773
+    second: heroine-walk-sheet_23
+  - first:
+      213: 2707467062270178625
+    second: heroine-walk-sheet_24
+  - first:
+      213: 4659789431399422117
+    second: heroine-walk-sheet_25
+  - first:
+      213: -62192788666095544
+    second: heroine-walk-sheet_26
+  - first:
+      213: 8824837886085666203
+    second: heroine-walk-sheet_27
+  - first:
+      213: -2802574571029173382
+    second: heroine-walk-sheet_28
+  - first:
+      213: 314175073946229080
+    second: heroine-walk-sheet_29
+  - first:
+      213: -3970339971444991086
+    second: heroine-walk-sheet_30
+  - first:
+      213: 7375626508144523638
+    second: heroine-walk-sheet_31
+  - first:
+      213: 5952962279446647159
+    second: heroine-walk-sheet_32
+  - first:
+      213: -1401336180010271054
+    second: heroine-walk-sheet_33
+  - first:
+      213: -2054624230901417625
+    second: heroine-walk-sheet_34
+  - first:
+      213: -9182520299051155530
+    second: heroine-walk-sheet_35
+  - first:
+      213: -2306768080107394285
+    second: heroine-walk-sheet_36
+  - first:
+      213: 5689709819357648938
+    second: heroine-walk-sheet_37
+  - first:
+      213: 7901875050522740802
+    second: heroine-walk-sheet_38
+  - first:
+      213: -45061119633406953
+    second: heroine-walk-sheet_39
+  - first:
+      213: 76973639565640430
+    second: heroine-walk-sheet_40
+  - first:
+      213: 5786692052924609514
+    second: heroine-walk-sheet_41
+  - first:
+      213: 3630292377681410300
+    second: heroine-walk-sheet_42
+  - first:
+      213: -2253726616449338826
+    second: heroine-walk-sheet_43
+  - first:
+      213: -2731885985264778702
+    second: heroine-walk-sheet_44
+  - first:
+      213: 470852871868881381
+    second: heroine-walk-sheet_45
+  - first:
+      213: 5763488938357085309
+    second: heroine-walk-sheet_46
+  - first:
+      213: -4804849840862805584
+    second: heroine-walk-sheet_47
+  - first:
+      213: -3337876066074189494
+    second: heroine-walk-sheet_48
+  - first:
+      213: 512691847546396334
+    second: heroine-walk-sheet_49
+  - first:
+      213: 4596560631426963102
+    second: heroine-walk-sheet_50
+  - first:
+      213: 8939243771494418660
+    second: heroine-walk-sheet_51
+  - first:
+      213: -8653729170472355563
+    second: heroine-walk-sheet_52
+  - first:
+      213: 2302540522433123427
+    second: heroine-walk-sheet_53
+  - first:
+      213: 9092258419231523007
+    second: heroine-walk-sheet_54
+  - first:
+      213: 4278177797103531150
+    second: heroine-walk-sheet_55
+  - first:
+      213: 6948518128732630989
+    second: heroine-walk-sheet_56
+  - first:
+      213: 1822144240826325375
+    second: heroine-walk-sheet_57
+  - first:
+      213: -6172906243023682715
+    second: heroine-walk-sheet_58
+  - first:
+      213: 8321091990762871040
+    second: heroine-walk-sheet_59
+  - first:
+      213: -3369938722280328389
+    second: heroine-walk-sheet_60
+  - first:
+      213: 8081735050720766120
+    second: heroine-walk-sheet_61
+  - first:
+      213: -4681070057608222967
+    second: heroine-walk-sheet_62
+  - first:
+      213: 7248904368086876644
+    second: heroine-walk-sheet_63
+  - first:
+      213: -259160884816492166
+    second: heroine-walk-sheet_64
+  - first:
+      213: -243795442862301172
+    second: heroine-walk-sheet_65
+  - first:
+      213: -5117022095293007096
+    second: heroine-walk-sheet_66
+  - first:
+      213: 4549610341644087025
+    second: heroine-walk-sheet_67
+  - first:
+      213: 9205432044464149585
+    second: heroine-walk-sheet_68
+  - first:
+      213: 7490282029421511887
+    second: heroine-walk-sheet_69
+  - first:
+      213: 2574852925146475797
+    second: heroine-walk-sheet_70
+  - first:
+      213: 528290518928451519
+    second: heroine-walk-sheet_71
+  - first:
+      213: 5974076545845891217
+    second: heroine-walk-sheet_72
+  - first:
+      213: -179122864138993510
+    second: heroine-walk-sheet_73
+  - first:
+      213: -1789864147957870008
+    second: heroine-walk-sheet_74
+  - first:
+      213: -4607999247471728733
+    second: heroine-walk-sheet_75
+  - first:
+      213: 894012407652618261
+    second: heroine-walk-sheet_76
+  - first:
+      213: 3476829804165016348
+    second: heroine-walk-sheet_77
+  - first:
+      213: -613143946837046693
+    second: heroine-walk-sheet_78
+  - first:
+      213: 2268153919299357650
+    second: heroine-walk-sheet_79
+  - first:
+      213: 1040080614532701281
+    second: heroine-walk-sheet_80
+  - first:
+      213: 5988473771935342351
+    second: heroine-walk-sheet_81
+  - first:
+      213: -8378568846623989109
+    second: heroine-walk-sheet_82
+  - first:
+      213: -6030158956949104434
+    second: heroine-walk-sheet_83
+  - first:
+      213: 4292812953903501464
+    second: heroine-walk-sheet_84
+  - first:
+      213: -2699662041019461370
+    second: heroine-walk-sheet_85
+  - first:
+      213: -3187615249945543214
+    second: heroine-walk-sheet_86
+  - first:
+      213: 4078172821728238818
+    second: heroine-walk-sheet_87
+  - first:
+      213: 2015088508047562478
+    second: heroine-walk-sheet_88
+  - first:
+      213: -8465147222707009703
+    second: heroine-walk-sheet_89
+  - first:
+      213: -884562146695784760
+    second: heroine-walk-sheet_90
+  - first:
+      213: 6875206972769494630
+    second: heroine-walk-sheet_91
+  - first:
+      213: -578865548271898342
+    second: heroine-walk-sheet_92
+  - first:
+      213: -7882534719468126592
+    second: heroine-walk-sheet_93
+  - first:
+      213: 6552399640259047242
+    second: heroine-walk-sheet_94
+  - first:
+      213: -4726836054580423626
+    second: heroine-walk-sheet_95
+  - first:
+      213: -8228695725925561826
+    second: heroine-walk-sheet_96
+  - first:
+      213: 3259523022558177247
+    second: heroine-walk-sheet_97
+  - first:
+      213: -7362507798042122199
+    second: heroine-walk-sheet_98
+  - first:
+      213: -3873200078952327653
+    second: heroine-walk-sheet_99
+  - first:
+      213: 2145224029976046766
+    second: heroine-walk-sheet_100
+  - first:
+      213: -5371105441779545586
+    second: heroine-walk-sheet_101
+  - first:
+      213: -7849352239932003593
+    second: heroine-walk-sheet_102
+  - first:
+      213: 1666672773460275872
+    second: heroine-walk-sheet_103
+  - first:
+      213: 3703781353543587600
+    second: heroine-walk-sheet_104
+  - first:
+      213: -4873935691413195751
+    second: heroine-walk-sheet_105
+  - first:
+      213: -4505941756690556032
+    second: heroine-walk-sheet_106
+  - first:
+      213: 3783556660494277406
+    second: heroine-walk-sheet_107
+  - first:
+      213: 7026421333122556306
+    second: heroine-walk-sheet_108
+  - first:
+      213: 1334382783985370347
+    second: heroine-walk-sheet_109
+  - first:
+      213: 8219815527502025625
+    second: heroine-walk-sheet_110
+  - first:
+      213: -7484273150231169059
+    second: heroine-walk-sheet_111
+  - first:
+      213: 2928149933838202699
+    second: heroine-walk-sheet_112
+  - first:
+      213: 4757568178667134185
+    second: heroine-walk-sheet_113
+  - first:
+      213: -8373206791378247174
+    second: heroine-walk-sheet_114
+  - first:
+      213: -1896104512585209283
+    second: heroine-walk-sheet_115
+  - first:
+      213: -669012797198119590
+    second: heroine-walk-sheet_116
+  - first:
+      213: -4073230023826432025
+    second: heroine-walk-sheet_117
+  - first:
+      213: 429850370290938242
+    second: heroine-walk-sheet_118
+  - first:
+      213: -5719392541862376554
+    second: heroine-walk-sheet_119
+  - first:
+      213: 6920167876845642966
+    second: heroine-walk-sheet_120
+  - first:
+      213: 5146986207557709920
+    second: heroine-walk-sheet_121
+  - first:
+      213: 8445528187527601474
+    second: heroine-walk-sheet_122
+  - first:
+      213: 3458543538502635890
+    second: heroine-walk-sheet_123
+  - first:
+      213: 2913400386679063980
+    second: heroine-walk-sheet_124
+  - first:
+      213: -6872762838146598008
+    second: heroine-walk-sheet_125
+  - first:
+      213: 5840150042933204414
+    second: heroine-walk-sheet_126
+  - first:
+      213: 8669981401169863253
+    second: heroine-walk-sheet_127
+  - first:
+      213: -8308464476429076537
+    second: heroine-walk-sheet_128
+  - first:
+      213: 8011944740210704895
+    second: heroine-walk-sheet_129
+  - first:
+      213: 3341180253446416022
+    second: heroine-walk-sheet_130
+  - first:
+      213: -5005286946687011574
+    second: heroine-walk-sheet_131
+  - first:
+      213: 8202252121746159253
+    second: heroine-walk-sheet_132
+  - first:
+      213: -3221250710407859833
+    second: heroine-walk-sheet_133
+  - first:
+      213: -2170002311459422426
+    second: heroine-walk-sheet_134
+  - first:
+      213: 6793129881188014218
+    second: heroine-walk-sheet_135
+  - first:
+      213: -3970919263429996127
+    second: heroine-walk-sheet_136
+  - first:
+      213: -1157509527041109195
+    second: heroine-walk-sheet_137
+  - first:
+      213: -850806992962241007
+    second: heroine-walk-sheet_138
+  - first:
+      213: 2433090886395802123
+    second: heroine-walk-sheet_139
+  - first:
+      213: -4402547575374417332
+    second: heroine-walk-sheet_140
+  - first:
+      213: -325659846923916907
+    second: heroine-walk-sheet_141
+  - first:
+      213: -2944450985551866623
+    second: heroine-walk-sheet_142
+  - first:
+      213: -2210024362662701303
+    second: heroine-walk-sheet_143
+  - first:
+      213: -9047713479895465929
+    second: heroine-walk-sheet_144
+  - first:
+      213: -7244196291930258262
+    second: heroine-walk-sheet_145
+  - first:
+      213: 6381158233905111552
+    second: heroine-walk-sheet_146
+  - first:
+      213: 6421641494000638405
+    second: heroine-walk-sheet_147
+  - first:
+      213: 7213414743865824048
+    second: heroine-walk-sheet_148
+  - first:
+      213: 2314016508668939950
+    second: heroine-walk-sheet_149
+  - first:
+      213: 1899096368008654791
+    second: heroine-walk-sheet_150
+  - first:
+      213: 4117557915038955747
+    second: heroine-walk-sheet_151
+  - first:
+      213: 5094999863929040181
+    second: heroine-walk-sheet_152
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: heroine-walk-sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 412
+        height: 1448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29a3d8be1d6880990800000000000000
+      internalID: -7419532149934703982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1358
+        width: 24
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 084ef6442f3997e50800000000000000
+      internalID: 6807634980486767744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1358
+        width: 52
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc39e303e21a409d0800000000000000
+      internalID: -2808943047822371893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 25
+        width: 295
+        height: 1423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b95c1352f96fd090800000000000000
+      internalID: -8007565122944083532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 0
+        width: 368
+        height: 1448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bae90d0eb69ae9f00800000000000000
+      internalID: 1125523237687565995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1389
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffc3a2719fbce0f00800000000000000
+      internalID: 1085028830938807551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 1240
+        width: 107
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a991bffdf6a82c50800000000000000
+      internalID: 6640741260404562336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 1397
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82b9c6b7adc83f470800000000000000
+      internalID: 8427234197741804328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1216
+        width: 34
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b20953d6eef3fcb0800000000000000
+      internalID: -4831237707896651085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_9
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1356
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b002bfb093f474f0800000000000000
+      internalID: -831772228139745103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_10
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1369
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d517223c90e0a0d0800000000000000
+      internalID: -3413481556085893677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 1356
+        width: 49
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98490c9ac0fd46800800000000000000
+      internalID: 604853495455061129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_12
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1339
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c64296e62cfd86750800000000000000
+      internalID: 6298530105046672492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_13
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 1342
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2059ee2bb4c4a280800000000000000
+      internalID: -9032878644373401557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_14
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1288
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9514fe9ebf6132f40800000000000000
+      internalID: 5702426824398553433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_15
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1224
+        width: 72
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d49bd78c7d834ff0800000000000000
+      internalID: -53043204603538218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_16
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 1243
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cd2b9368a93627a0800000000000000
+      internalID: -6402366424872178236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_17
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 1240
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 862256bbc78be9980800000000000000
+      internalID: -8530177798333717912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_18
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 1240
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a463e3b6d74992b0800000000000000
+      internalID: -5577347676055051095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_19
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 1224
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cbe2ce90893ef4e0800000000000000
+      internalID: -1946054764395303994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_20
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 1210
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c96e930c9ea7334d0800000000000000
+      internalID: -3156043769485597028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_21
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1188
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2404ad7671769350800000000000000
+      internalID: 6023126305382597677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 1212
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e288709699310fc50800000000000000
+      internalID: 6696874195512952878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_23
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1148
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 328f66c24647aeae0800000000000000
+      internalID: -1519273950693623773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_24
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 1163
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1453fa7c2fad29520800000000000000
+      internalID: 2707467062270178625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 1163
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a89eaa9cc5eaa040800000000000000
+      internalID: 4659789431399422117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_26
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1147
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84867fbfcfb032ff0800000000000000
+      internalID: -62192788666095544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_27
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 1138
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b959b882d4f187a70800000000000000
+      internalID: 8824837886085666203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_28
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 1143
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7b634db6414b19d0800000000000000
+      internalID: -2802574571029173382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_29
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 1131
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 859d8dfa09c2c5400800000000000000
+      internalID: 314175073946229080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_30
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 1101
+        width: 19
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29b9c7ce4d486e8c0800000000000000
+      internalID: -3970339971444991086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_31
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1111
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 679b8ed3b3d7b5660800000000000000
+      internalID: 7375626508144523638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_32
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 1103
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77197bb27ab2d9250800000000000000
+      internalID: 5952962279446647159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_33
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 1117
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2beb59b3b247d8ce0800000000000000
+      internalID: -1401336180010271054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_34
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1111
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 769f53ad5228c73e0800000000000000
+      internalID: -2054624230901417625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_35
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 1066
+        width: 68
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bffd386072219080800000000000000
+      internalID: -9182520299051155530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_36
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 868
+        width: 80
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31b2df527a6bcffd0800000000000000
+      internalID: -2306768080107394285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_37
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1084
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a285dd17fe8e5fe40800000000000000
+      internalID: 5689709819357648938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_38
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1081
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2480ee51e7919ad60800000000000000
+      internalID: 7901875050522740802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_39
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1083
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 714c1138629ef5ff0800000000000000
+      internalID: -45061119633406953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_40
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 1095
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee2016b0e17711100800000000000000
+      internalID: 76973639565640430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_41
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1080
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae3b52f43c57e4050800000000000000
+      internalID: 5786692052924609514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_42
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 1068
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf83282fea3616230800000000000000
+      internalID: 3630292377681410300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_43
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 1077
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 632b1b5459729b0e0800000000000000
+      internalID: -2253726616449338826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_44
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 1053
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 232cc69ab24661ad0800000000000000
+      internalID: -2731885985264778702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_45
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 1041
+        width: 45
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e99739313ec88600800000000000000
+      internalID: 470852871868881381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_46
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 972
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d74daa537a60cff40800000000000000
+      internalID: 5763488938357085309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_47
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 970
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b1c744e68eb15db0800000000000000
+      internalID: -4804849840862805584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_48
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 972
+        width: 28
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a41ae59176b7da1d0800000000000000
+      internalID: -3337876066074189494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 922
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaedd3cd4827d1700800000000000000
+      internalID: 512691847546396334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_50
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 890
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e96dfb86a834acf30800000000000000
+      internalID: 4596560631426963102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_51
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 917
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e84c8819d29e0c70800000000000000
+      internalID: 8939243771494418660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_52
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 908
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5193f8b3b27c7e780800000000000000
+      internalID: -8653729170472355563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_53
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 886
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3649190e76444ff10800000000000000
+      internalID: 2302540522433123427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_54
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 889
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb089540cd03e2e70800000000000000
+      internalID: 9092258419231523007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_55
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 886
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e84b15a2a042f5b30800000000000000
+      internalID: 4278177797103531150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_56
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 874
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcf687a5c681e6060800000000000000
+      internalID: 6948518128732630989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_57
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 860
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f791afb688e894910800000000000000
+      internalID: 1822144240826325375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_58
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 838
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56348c83a7e655aa0800000000000000
+      internalID: -6172906243023682715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_59
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 832
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 009d4cc14157a7370800000000000000
+      internalID: 8321091990762871040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_60
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 825
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b33b5a736929b31d0800000000000000
+      internalID: -3369938722280328389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_61
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 826
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a8e803b537182070800000000000000
+      internalID: 8081735050720766120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_62
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 803
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9076b8f759f790fb0800000000000000
+      internalID: -4681070057608222967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_63
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 805
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e1889ecd18499460800000000000000
+      internalID: 7248904368086876644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_64
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 753
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7946d06c86476cf0800000000000000
+      internalID: -259160884816492166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_65
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 755
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c00655e165ddd9cf0800000000000000
+      internalID: -243795442862301172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_66
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 757
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80b3c36f38facf8b0800000000000000
+      internalID: -5117022095293007096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_67
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 735
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fea3283086732f30800000000000000
+      internalID: 4549610341644087025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_68
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 731
+        width: 19
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15498460ca340cf70800000000000000
+      internalID: 9205432044464149585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_69
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 743
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc4492f02d3d2f760800000000000000
+      internalID: 7490282029421511887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_70
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 719
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51d2b30e717bbb320800000000000000
+      internalID: 2574852925146475797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_71
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 743
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb7efee8d6dd45700800000000000000
+      internalID: 528290518928451519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_72
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 739
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 190132867fe28e250800000000000000
+      internalID: 5974076545845891217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_73
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 719
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9048df34b0a38df0800000000000000
+      internalID: -179122864138993510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_74
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 715
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84293c06a002927e0800000000000000
+      internalID: -1789864147957870008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_75
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 729
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a72e2149191d00c0800000000000000
+      internalID: -4607999247471728733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_76
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 707
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5101dee4c8b286c00800000000000000
+      internalID: 894012407652618261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_77
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 712
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1b2fbd294e204030800000000000000
+      internalID: 3476829804165016348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_78
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 703
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ac89434dcad77f0800000000000000
+      internalID: -613143946837046693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_79
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 683
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2db8fbfe8f91a7f10800000000000000
+      internalID: 2268153919299357650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_80
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 621
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16cddfeeecb1f6e00800000000000000
+      internalID: 1040080614532701281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_81
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 598
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0f13f2da255b1350800000000000000
+      internalID: 5988473771935342351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_82
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 580
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b82a2da860859bb80800000000000000
+      internalID: -8378568846623989109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_83
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 556
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec898e7b062905ca0800000000000000
+      internalID: -6030158956949104434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_84
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 537
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8901d9423a2239b30800000000000000
+      internalID: 4292812953903501464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_85
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 538
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 601dd675dafd88ad0800000000000000
+      internalID: -2699662041019461370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_86
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 534
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ddb062a1d053c3d0800000000000000
+      internalID: -3187615249945543214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_87
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 530
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ec93c30394989830800000000000000
+      internalID: 4078172821728238818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_88
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 532
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee69529525807fb10800000000000000
+      internalID: 2015088508047562478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_89
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 522
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9570a238371c58a80800000000000000
+      internalID: -8465147222707009703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_90
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 516
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c6d0780a6769b3f0800000000000000
+      internalID: -884562146695784760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_91
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 506
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 666e639b054a96f50800000000000000
+      internalID: 6875206972769494630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_92
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 482
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a11ba8ec9d477f7f0800000000000000
+      internalID: -578865548271898342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_93
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 480
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08e3b64af6c9b9290800000000000000
+      internalID: -7882534719468126592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_94
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 474
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4fa908b1ccceea50800000000000000
+      internalID: 6552399640259047242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_95
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 441
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6349937f6a7e66eb0800000000000000
+      internalID: -4726836054580423626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_96
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 416
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1a8e63b5dccdcd80800000000000000
+      internalID: -8228695725925561826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_97
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 391
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd7a9c85be62c3d20800000000000000
+      internalID: 3259523022558177247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_98
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 383
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 928e7a97a2e13d990800000000000000
+      internalID: -7362507798042122199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_99
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 355
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b16180e9c01af3ac0800000000000000
+      internalID: -3873200078952327653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_100
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 365
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eacaa5ea3ed55cd10800000000000000
+      internalID: 2145224029976046766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_101
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 369
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a009bde000675b0800000000000000
+      internalID: -5371105441779545586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_102
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 357
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7faafe5b9bf711390800000000000000
+      internalID: -7849352239932003593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_103
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 355
+        width: 47
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a23aea9e06312710800000000000000
+      internalID: 1666672773460275872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_104
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 345
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0175eaf7489766330800000000000000
+      internalID: 3703781353543587600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_105
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 369
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 914f737df4d4c5cb0800000000000000
+      internalID: -4873935691413195751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_106
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 329
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b1cd588dda771c0800000000000000
+      internalID: -4505941756690556032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_107
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 344
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1b13509cb4e18430800000000000000
+      internalID: 3783556660494277406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_108
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 345
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2912ff299fcd28160800000000000000
+      internalID: 7026421333122556306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_109
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 319
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be448d9721ea48210800000000000000
+      internalID: 1334382783985370347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_110
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 305
+        width: 20
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9939ffbfba6a21270800000000000000
+      internalID: 8219815527502025625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_111
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 343
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd73a762935822890800000000000000
+      internalID: -7484273150231169059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_112
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 329
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b47728fc9d0e2a820800000000000000
+      internalID: 2928149933838202699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_113
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 327
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ec18244d07460240800000000000000
+      internalID: 4757568178667134185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_114
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 319
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af1e20159c46ccb80800000000000000
+      internalID: -8373206791378247174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_115
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 309
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ae756edfeafa5e0800000000000000
+      internalID: -1896104512585209283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_116
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 313
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5dc0d0d76037b6f0800000000000000
+      internalID: -669012797198119590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_117
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 278
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ef9e5dcfdaf877c0800000000000000
+      internalID: -4073230023826432025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_118
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 258
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 281f2c362a227f500800000000000000
+      internalID: 429850370290938242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_119
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 278
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69b464b29c2a0a0b0800000000000000
+      internalID: -5719392541862376554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_120
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 272
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d42475f400690060800000000000000
+      internalID: 6920167876845642966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_121
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 262
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 060ff459fa4cd6740800000000000000
+      internalID: 5146986207557709920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_122
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 254
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24d9126e32b843570800000000000000
+      internalID: 8445528187527601474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_123
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 259
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2711cac26073fff20800000000000000
+      internalID: 3458543538502635890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_124
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 240
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca5cd70473a7e6820800000000000000
+      internalID: 2913400386679063980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_125
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 243
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88b34c6bc9a0f90a0800000000000000
+      internalID: -6872762838146598008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_126
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 245
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb5140885816c0150800000000000000
+      internalID: 5840150042933204414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_127
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 212
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55229f91626f15870800000000000000
+      internalID: 8669981401169863253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_128
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 224
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c73e7d249762bc80800000000000000
+      internalID: -8308464476429076537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_129
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 212
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff18158ca45203f60800000000000000
+      internalID: 8011944740210704895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_130
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 216
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6962939fcb14e5e20800000000000000
+      internalID: 3341180253446416022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_131
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 223
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0532d78a06a98ab0800000000000000
+      internalID: -5005286946687011574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_132
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 152
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 596bfdae8d044d170800000000000000
+      internalID: 8202252121746159253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_133
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 174
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7813aa9bb81db43d0800000000000000
+      internalID: -3221250710407859833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_134
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 168
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62f3fa7156a92e1e0800000000000000
+      internalID: -2170002311459422426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_135
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 158
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a889d49a2ab064e50800000000000000
+      internalID: 6793129881188014218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_136
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 160
+        width: 18
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a1df7ff7f574e8c0800000000000000
+      internalID: -3970919263429996127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_137
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 172
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5339598c733bfefe0800000000000000
+      internalID: -1157509527041109195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_138
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 142
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e31143c835134f0800000000000000
+      internalID: -850806992962241007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_139
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 144
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b02bcd5254314c120800000000000000
+      internalID: 2433090886395802123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_140
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 136
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c42fc0f4e4207e2c0800000000000000
+      internalID: -4402547575374417332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_141
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 136
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 599ed7a38160b7bf0800000000000000
+      internalID: -325659846923916907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_142
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 128
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 105d1a3dd653327d0800000000000000
+      internalID: -2944450985551866623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_143
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 136
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 907d7862d8a6451e0800000000000000
+      internalID: -2210024362662701303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_144
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 112
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7304151e680107280800000000000000
+      internalID: -9047713479895465929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_145
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 95
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa48b489ad1777b90800000000000000
+      internalID: -7244196291930258262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_146
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 100
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 002297bda9d6e8850800000000000000
+      internalID: 6381158233905111552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_147
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 88
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c911dc5ae04e1950800000000000000
+      internalID: 6421641494000638405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_148
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 94
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03310b1cd723b1460800000000000000
+      internalID: 7213414743865824048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_149
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 71
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eae0a9321c90d1020800000000000000
+      internalID: 2314016508668939950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_150
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 81
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cfe369b512fa5a10800000000000000
+      internalID: 1899096368008654791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_151
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 79
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e8bef3ab11842930800000000000000
+      internalID: 4117557915038955747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heroine-walk-sheet_152
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 39
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d672cb16315b640800000000000000
+      internalID: 5094999863929040181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      heroine-walk-sheet_0: -7419532149934703982
+      heroine-walk-sheet_1: 6807634980486767744
+      heroine-walk-sheet_10: -3413481556085893677
+      heroine-walk-sheet_100: 2145224029976046766
+      heroine-walk-sheet_101: -5371105441779545586
+      heroine-walk-sheet_102: -7849352239932003593
+      heroine-walk-sheet_103: 1666672773460275872
+      heroine-walk-sheet_104: 3703781353543587600
+      heroine-walk-sheet_105: -4873935691413195751
+      heroine-walk-sheet_106: -4505941756690556032
+      heroine-walk-sheet_107: 3783556660494277406
+      heroine-walk-sheet_108: 7026421333122556306
+      heroine-walk-sheet_109: 1334382783985370347
+      heroine-walk-sheet_11: 604853495455061129
+      heroine-walk-sheet_110: 8219815527502025625
+      heroine-walk-sheet_111: -7484273150231169059
+      heroine-walk-sheet_112: 2928149933838202699
+      heroine-walk-sheet_113: 4757568178667134185
+      heroine-walk-sheet_114: -8373206791378247174
+      heroine-walk-sheet_115: -1896104512585209283
+      heroine-walk-sheet_116: -669012797198119590
+      heroine-walk-sheet_117: -4073230023826432025
+      heroine-walk-sheet_118: 429850370290938242
+      heroine-walk-sheet_119: -5719392541862376554
+      heroine-walk-sheet_12: 6298530105046672492
+      heroine-walk-sheet_120: 6920167876845642966
+      heroine-walk-sheet_121: 5146986207557709920
+      heroine-walk-sheet_122: 8445528187527601474
+      heroine-walk-sheet_123: 3458543538502635890
+      heroine-walk-sheet_124: 2913400386679063980
+      heroine-walk-sheet_125: -6872762838146598008
+      heroine-walk-sheet_126: 5840150042933204414
+      heroine-walk-sheet_127: 8669981401169863253
+      heroine-walk-sheet_128: -8308464476429076537
+      heroine-walk-sheet_129: 8011944740210704895
+      heroine-walk-sheet_13: -9032878644373401557
+      heroine-walk-sheet_130: 3341180253446416022
+      heroine-walk-sheet_131: -5005286946687011574
+      heroine-walk-sheet_132: 8202252121746159253
+      heroine-walk-sheet_133: -3221250710407859833
+      heroine-walk-sheet_134: -2170002311459422426
+      heroine-walk-sheet_135: 6793129881188014218
+      heroine-walk-sheet_136: -3970919263429996127
+      heroine-walk-sheet_137: -1157509527041109195
+      heroine-walk-sheet_138: -850806992962241007
+      heroine-walk-sheet_139: 2433090886395802123
+      heroine-walk-sheet_14: 5702426824398553433
+      heroine-walk-sheet_140: -4402547575374417332
+      heroine-walk-sheet_141: -325659846923916907
+      heroine-walk-sheet_142: -2944450985551866623
+      heroine-walk-sheet_143: -2210024362662701303
+      heroine-walk-sheet_144: -9047713479895465929
+      heroine-walk-sheet_145: -7244196291930258262
+      heroine-walk-sheet_146: 6381158233905111552
+      heroine-walk-sheet_147: 6421641494000638405
+      heroine-walk-sheet_148: 7213414743865824048
+      heroine-walk-sheet_149: 2314016508668939950
+      heroine-walk-sheet_15: -53043204603538218
+      heroine-walk-sheet_150: 1899096368008654791
+      heroine-walk-sheet_151: 4117557915038955747
+      heroine-walk-sheet_152: 5094999863929040181
+      heroine-walk-sheet_16: -6402366424872178236
+      heroine-walk-sheet_17: -8530177798333717912
+      heroine-walk-sheet_18: -5577347676055051095
+      heroine-walk-sheet_19: -1946054764395303994
+      heroine-walk-sheet_2: -2808943047822371893
+      heroine-walk-sheet_20: -3156043769485597028
+      heroine-walk-sheet_21: 6023126305382597677
+      heroine-walk-sheet_22: 6696874195512952878
+      heroine-walk-sheet_23: -1519273950693623773
+      heroine-walk-sheet_24: 2707467062270178625
+      heroine-walk-sheet_25: 4659789431399422117
+      heroine-walk-sheet_26: -62192788666095544
+      heroine-walk-sheet_27: 8824837886085666203
+      heroine-walk-sheet_28: -2802574571029173382
+      heroine-walk-sheet_29: 314175073946229080
+      heroine-walk-sheet_3: -8007565122944083532
+      heroine-walk-sheet_30: -3970339971444991086
+      heroine-walk-sheet_31: 7375626508144523638
+      heroine-walk-sheet_32: 5952962279446647159
+      heroine-walk-sheet_33: -1401336180010271054
+      heroine-walk-sheet_34: -2054624230901417625
+      heroine-walk-sheet_35: -9182520299051155530
+      heroine-walk-sheet_36: -2306768080107394285
+      heroine-walk-sheet_37: 5689709819357648938
+      heroine-walk-sheet_38: 7901875050522740802
+      heroine-walk-sheet_39: -45061119633406953
+      heroine-walk-sheet_4: 1125523237687565995
+      heroine-walk-sheet_40: 76973639565640430
+      heroine-walk-sheet_41: 5786692052924609514
+      heroine-walk-sheet_42: 3630292377681410300
+      heroine-walk-sheet_43: -2253726616449338826
+      heroine-walk-sheet_44: -2731885985264778702
+      heroine-walk-sheet_45: 470852871868881381
+      heroine-walk-sheet_46: 5763488938357085309
+      heroine-walk-sheet_47: -4804849840862805584
+      heroine-walk-sheet_48: -3337876066074189494
+      heroine-walk-sheet_49: 512691847546396334
+      heroine-walk-sheet_5: 1085028830938807551
+      heroine-walk-sheet_50: 4596560631426963102
+      heroine-walk-sheet_51: 8939243771494418660
+      heroine-walk-sheet_52: -8653729170472355563
+      heroine-walk-sheet_53: 2302540522433123427
+      heroine-walk-sheet_54: 9092258419231523007
+      heroine-walk-sheet_55: 4278177797103531150
+      heroine-walk-sheet_56: 6948518128732630989
+      heroine-walk-sheet_57: 1822144240826325375
+      heroine-walk-sheet_58: -6172906243023682715
+      heroine-walk-sheet_59: 8321091990762871040
+      heroine-walk-sheet_6: 6640741260404562336
+      heroine-walk-sheet_60: -3369938722280328389
+      heroine-walk-sheet_61: 8081735050720766120
+      heroine-walk-sheet_62: -4681070057608222967
+      heroine-walk-sheet_63: 7248904368086876644
+      heroine-walk-sheet_64: -259160884816492166
+      heroine-walk-sheet_65: -243795442862301172
+      heroine-walk-sheet_66: -5117022095293007096
+      heroine-walk-sheet_67: 4549610341644087025
+      heroine-walk-sheet_68: 9205432044464149585
+      heroine-walk-sheet_69: 7490282029421511887
+      heroine-walk-sheet_7: 8427234197741804328
+      heroine-walk-sheet_70: 2574852925146475797
+      heroine-walk-sheet_71: 528290518928451519
+      heroine-walk-sheet_72: 5974076545845891217
+      heroine-walk-sheet_73: -179122864138993510
+      heroine-walk-sheet_74: -1789864147957870008
+      heroine-walk-sheet_75: -4607999247471728733
+      heroine-walk-sheet_76: 894012407652618261
+      heroine-walk-sheet_77: 3476829804165016348
+      heroine-walk-sheet_78: -613143946837046693
+      heroine-walk-sheet_79: 2268153919299357650
+      heroine-walk-sheet_8: -4831237707896651085
+      heroine-walk-sheet_80: 1040080614532701281
+      heroine-walk-sheet_81: 5988473771935342351
+      heroine-walk-sheet_82: -8378568846623989109
+      heroine-walk-sheet_83: -6030158956949104434
+      heroine-walk-sheet_84: 4292812953903501464
+      heroine-walk-sheet_85: -2699662041019461370
+      heroine-walk-sheet_86: -3187615249945543214
+      heroine-walk-sheet_87: 4078172821728238818
+      heroine-walk-sheet_88: 2015088508047562478
+      heroine-walk-sheet_89: -8465147222707009703
+      heroine-walk-sheet_9: -831772228139745103
+      heroine-walk-sheet_90: -884562146695784760
+      heroine-walk-sheet_91: 6875206972769494630
+      heroine-walk-sheet_92: -578865548271898342
+      heroine-walk-sheet_93: -7882534719468126592
+      heroine-walk-sheet_94: 6552399640259047242
+      heroine-walk-sheet_95: -4726836054580423626
+      heroine-walk-sheet_96: -8228695725925561826
+      heroine-walk-sheet_97: 3259523022558177247
+      heroine-walk-sheet_98: -7362507798042122199
+      heroine-walk-sheet_99: -3873200078952327653
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

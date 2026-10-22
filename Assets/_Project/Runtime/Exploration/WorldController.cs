@@ -66,6 +66,7 @@ namespace HGame.Unity
                 worldCamera = cameraObject.GetComponent<Camera>(); cameraObject.tag = "MainCamera";
             }
             worldCamera.orthographic = true; worldCamera.orthographicSize = 8.5f;
+            worldCamera.rect = new Rect(0, 0, .75f, 1);
             worldCamera.backgroundColor = new Color(.08f, .12f, .16f); worldCamera.clearFlags = CameraClearFlags.SolidColor;
             if (read != null) Sync(read().Run, true);
         }
@@ -141,10 +142,11 @@ namespace HGame.Unity
             if (moving)
             {
                 moveProgress += Time.deltaTime * 6.4f;
+                UpdateHeroFrame(moveProgress < .5f ? 0 : 2);
                 Vector3 feet = Vector3.Lerp(moveFrom, World(destination), Mathf.Clamp01(moveProgress));
                 hero.transform.position = feet + Vector3.up * Mathf.Sin(Mathf.Clamp01(moveProgress) * Mathf.PI) * .055f;
                 hero.transform.rotation = Quaternion.Euler(0, 0, Mathf.Sin(moveProgress * Mathf.PI * 2) * 4f);
-                shadow.transform.position = feet + new Vector3(0, -.31f, .01f);
+                shadow.transform.position = feet + new Vector3(0, -.52f, .01f);
                 if (moveProgress >= 1f) { position = destination; moving = false; UpdateHero(); EmitPosition(read().Run); }
                 UpdateCamera(); return;
             }
@@ -177,13 +179,19 @@ namespace HGame.Unity
         private void UpdateHero()
         {
             if (hero == null) return;
-            string key = facing == 0 ? "hero_up" : facing == 1 ? "hero_right" : facing == 3 ? "hero_left" : "hero_down";
-            hero.sprite = GetSprite(key); Size(hero, .9f); hero.transform.position = World(position);
+            UpdateHeroFrame(1); hero.transform.position = World(position);
             hero.transform.rotation = Quaternion.identity;
-            hero.flipX = facing == 3;
             hero.sortingOrder = position.y * 10 + 5;
             shadow.sortingOrder = hero.sortingOrder - 1;
-            shadow.transform.position = World(position) + new Vector3(0, -.31f, .01f);
+            shadow.transform.position = World(position) + new Vector3(0, -.52f, .01f);
+        }
+        private void UpdateHeroFrame(int frame)
+        {
+            if (hero == null) return;
+            string key = facing == 0 ? "hero_up" : facing == 1 ? "hero_right" : facing == 3 ? "hero_left" : "hero_down";
+            hero.sprite = GetSprite(key + "_" + frame); Size(hero, 1.2f);
+            // The sheet contains separate left/right artwork; never mirror these frames again.
+            hero.flipX = false;
         }
         private Sprite GetSprite(string key)
         {
@@ -215,7 +223,7 @@ namespace HGame.Unity
                 if (map.Id == "town" || map.Id == "inn") CreateLabel(interaction);
             }
             shadow = Create("shadow", position, 0, .68f); shadow.color = new Color(0, 0, 0, .28f); shadow.transform.localScale = new Vector3(.6f, .2f, 1);
-            hero = Create("hero_down", position, 1, .9f);
+            hero = Create("hero_down", position, 1, 1.2f);
             if (hero.sprite == fallback) hero.color = new Color(1f, .86f, .5f);
             visualRoot.SetActive(visible);
         }
@@ -258,7 +266,10 @@ namespace HGame.Unity
         private void UpdateCamera()
         {
             if (worldCamera == null || map == null || hero == null) return;
-            float halfH = worldCamera.orthographicSize, halfW = halfH * worldCamera.aspect;
+            Rect viewport = worldCamera.pixelRect;
+            float aspect = viewport.height > 0 ? viewport.width / viewport.height : 4f / 3f;
+            worldCamera.aspect = aspect;
+            float halfH = worldCamera.orthographicSize, halfW = halfH * aspect;
             float x = map.Width < halfW * 2 ? (map.Width - 1) * .5f : Mathf.Clamp(hero.transform.position.x, -.5f + halfW, map.Width - .5f - halfW);
             float top = .5f, bottom = -map.Height + .5f;
             float y = map.Height < halfH * 2 ? -(map.Height - 1) * .5f : Mathf.Clamp(hero.transform.position.y, bottom + halfH, top - halfH);

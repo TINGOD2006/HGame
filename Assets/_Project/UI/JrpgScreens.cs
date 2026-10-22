@@ -26,6 +26,7 @@ namespace HGame.Unity
                 else if(window!="") RenderWindow(run);
             }
             if(MainMenuVisible&&GalleryVisible) RenderGalleryScreen();
+            RenderHeroineSidebar();
             ApplyLock();
         }
         private void Background()
@@ -33,7 +34,7 @@ namespace HGame.Unity
         private RectTransform WindowPanel(string title,string subtitle="")
         {
             UiKit.PanelAt("Shade",content,0,0,1280,720,new Color(0,0,0,.65f));
-            var p=UiKit.PanelAt("Window",content,210,100,860,520,UiKit.Panel).rectTransform;
+            var p=UiKit.PanelAt("Window",content,50,100,860,520,UiKit.Panel).rectTransform;
             UiKit.PanelAt("Line",p,0,0,860,3,UiKit.Teal);
             UiKit.Text(title,p,26,20,700,40,28,UiKit.Gold);
             UiKit.Text(subtitle,p,28,68,800,58,17,UiKit.Muted);
@@ -42,37 +43,35 @@ namespace HGame.Unity
         private void RenderMainMenu()
         {
             Background();
-            UiKit.PanelAt("Cover",content,36,35,1208,650,UiKit.Panel);
-            UiKit.PanelAt("CoverLine",content,36,35,1208,4,UiKit.Teal);
+            UiKit.PanelAt("Cover",content,20,35,920,650,UiKit.Panel);
+            UiKit.PanelAt("CoverLine",content,20,35,920,4,UiKit.Teal);
             UiKit.Text("A NIGHT IN THE LABYRINTH",content,85,90,800,32,20,UiKit.Teal);
-            UiKit.Text("迷宮與她的夜晚",content,80,158,820,84,50);
+            UiKit.Text("迷宮與她的夜晚",content,80,158,800,84,45);
             UiKit.Text("每一次出發，都會留下些什麼。",content,86,262,760,45,26,UiKit.Gold);
             UiKit.Text("俯視地圖探索  ×  橫向回合制戰鬥\n一座小城鎮，以及尚未解開的迷宮。",content,87,335,720,92,22,UiKit.Muted);
-            PixelImage("CoverHero","hero_down",content,966,174,150,210);
-            PixelImage("CoverSave","save",content,944,420,72,72); PixelImage("CoverEnemy","enemy",content,1070,430,72,72);
             UiKit.Button("NewGame","開始新的旅程",content,86,476,340,58,()=>{if(Session!=null)Confirm("開始新的旅程？","新的旅程獨立保存記憶；原手動存檔仍可載入。",NewGame);else NewGame();},true,UiKit.Hex("38645F"));
             UiKit.Button("Continue","繼續旅程",content,86,548,340,58,()=>{if(Session!=null){MainMenuVisible=false;Refresh();}else LoadSlot("auto",LoadIntent.Continue);},Session!=null||Repository.HasSlot("auto"));
             UiKit.Button("MainGallery","回想畫廊",content,450,476,220,58,OpenGallery);
             UiKit.Button("MainQuit","離開",content,450,548,220,58,()=>Application.Quit());
-            UiKit.Text("SYSTEM DEMO 0.2.0\nWASD／方向鍵移動 · E／Enter 互動 · Esc 選單\n所有角色及參與者均成年，素材與地圖為測試配置。",content,710,553,488,95,16,UiKit.Muted);
+            UiKit.Text("SYSTEM DEMO 0.2.1\nWASD／方向鍵移動 · E／Enter 互動 · Esc 選單\n所有角色及參與者均成年，地圖為測試配置。",content,86,622,800,60,14,UiKit.Muted);
         }
         private void RenderHud(RunState run)
         {
-            UiKit.PanelAt("Header",content,0,0,1280,80,new Color(.055f,.08f,.13f,.96f));
+            UiKit.PanelAt("Header",content,0,0,960,80,new Color(.055f,.08f,.13f,.96f));
             UiKit.Text(World?.Map?.Name??"旅程",content,24,13,490,34,26,UiKit.Gold);
             UiKit.Text("第 "+run.Chapter+" 章  ·  第 "+run.Day+" / 20 天  ·  "+new[]{"早上","中午","晚上","深夜"}[(int)run.Slot],content,24,50,550,24,16,UiKit.Muted);
-            UiKit.Text("HP  "+run.Hp+" / "+run.MaxHp+"     MP  "+run.Mp+" / "+run.MaxMp,content,620,18,470,30,20);
-            UiKit.Text("金錢 "+run.Gold+"　"+(run.Job==Job.Dancer?"舞者":"劍士"),content,755,51,335,24,16,UiKit.Teal);
-            UiKit.Button("Menu","選單  Esc",content,1115,18,140,48,()=>OpenWindow("Menu"));
-            UiKit.PanelAt("Foot",content,0,638,1280,82,new Color(.055f,.08f,.13f,.96f));
-            hintText=UiKit.Text(World?.Hint??"",content,24,648,840,28,20,UiKit.Gold);
-            UiKit.Text(status,content,24,683,1200,27,15,UiKit.Muted).overflowMode=TextOverflowModes.Ellipsis;
-            UiKit.Text("WASD 移動　E 互動",content,925,651,330,25,17,UiKit.Teal);
+            UiKit.Text("HP "+run.Hp+" / "+run.MaxHp+"   MP "+run.Mp+" / "+run.MaxMp,content,485,18,310,30,18);
+            UiKit.Text("金錢 "+run.Gold+"　"+(run.Job==Job.Dancer?"舞者":"劍士"),content,590,51,205,24,16,UiKit.Teal);
+            UiKit.Button("Menu","選單  Esc",content,805,18,130,48,()=>OpenWindow("Menu"));
+            UiKit.PanelAt("Foot",content,0,638,960,82,new Color(.055f,.08f,.13f,.96f));
+            hintText=UiKit.Text(World?.Hint??"",content,24,648,640,28,20,UiKit.Gold);
+            UiKit.Text(status,content,24,683,910,27,15,UiKit.Muted).overflowMode=TextOverflowModes.Ellipsis;
+            UiKit.Text("WASD 移動　E 互動",content,680,651,270,25,16,UiKit.Teal);
             if(run.Hp==0)
             {
                 UiKit.PanelAt("Warning",content,18,92,920,42,new Color(.055f,.08f,.13f,.9f));
-                UiKit.Text("HP 為 0：開選單恢復，或選安全返城。",content,26,96,890,32,21,UiKit.Pink);
-                UiKit.Button("SafeReturn","安全返城",content,1030,94,220,44,()=>Execute(new GameCommand(CommandKind.ReturnTown)));
+                UiKit.Text("HP 為 0：開選單恢復，或選安全返城。",content,26,96,675,32,19,UiKit.Pink);
+                UiKit.Button("SafeReturn","安全返城",content,720,94,215,44,()=>Execute(new GameCommand(CommandKind.ReturnTown)));
             }
             else if(run.Chapter==1&&run.Day<3)
             {
@@ -146,5 +145,21 @@ namespace HGame.Unity
         }
         private Image PixelImage(string name,string key,Transform parent,float x,float y,float w,float h)
         { var r=UiKit.Rect(name,parent,x,y,w,h);var im=r.gameObject.AddComponent<Image>();im.sprite=art.Get(key);im.preserveAspect=true;im.raycastTarget=false;return im; }
+        private void RenderHeroineSidebar()
+        {
+            if(portraitRoot==null) return;
+            UiKit.Clear(portraitRoot);
+            UiKit.PanelAt("PortraitBackground",portraitRoot,0,0,320,720,UiKit.Hex("172033"));
+            UiKit.PanelAt("PortraitAccent",portraitRoot,0,0,3,720,UiKit.Gold);
+            UiKit.Text("旅人",portraitRoot,22,18,280,32,24,UiKit.Gold);
+            UiKit.Text("成年女主 · 暫定造型",portraitRoot,23,52,280,24,14,UiKit.Muted);
+            var rect=UiKit.Rect("HeroineStanding",portraitRoot,4,80,312,632);
+            var image=rect.gameObject.AddComponent<RawImage>();image.texture=Resources.Load<Texture2D>("Art/Heroine/heroine-standing");image.raycastTarget=false;
+            if(image.texture!=null)
+            {
+                float width=632f*image.texture.width/image.texture.height;
+                rect.sizeDelta=new Vector2(width,632);rect.anchoredPosition=new Vector2((320-width)*.5f,-80);
+            }
+        }
     }
 }

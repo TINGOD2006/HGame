@@ -5,9 +5,34 @@ namespace HGame.Unity
     public sealed class JrpgArt
     {
         private readonly Dictionary<string, Sprite> cache = new Dictionary<string, Sprite>();
+        private Texture2D heroineSheet;
+        public Sprite GetHero(int facing, int frame)
+        {
+            facing = Mathf.Clamp(facing, 0, 3); frame = Mathf.Clamp(frame, 0, 2);
+            string id = "hero_frame_" + facing + "_" + frame;
+            if (cache.TryGetValue(id, out var found)) return found;
+            if (heroineSheet == null) heroineSheet = Resources.Load<Texture2D>("Art/Heroine/heroine-walk-sheet");
+            if (heroineSheet == null) return null;
+            // The generated sheet has uneven outer margins, so use measured cells, not texture thirds.
+            int row = facing == 2 ? 0 : facing == 3 ? 1 : facing == 1 ? 2 : 3;
+            int[] left = { 135, 413, 689 };
+            int[] top = { 0, 357, 706, 1064 };
+            var rect = new Rect(left[frame], heroineSheet.height - top[row] - 360, 260, 360);
+            var result = Sprite.Create(heroineSheet, rect, new Vector2(.5f, .5f), 360);
+            result.name = id;
+            return cache[id] = result;
+        }
         public Sprite Get(string key)
         {
             if (cache.TryGetValue(key, out var found)) return found;
+            if (key.StartsWith("hero_"))
+            {
+                string[] parts = key.Split('_');
+                int direction = parts.Length > 1 && parts[1] == "up" ? 0 : parts.Length > 1 && parts[1] == "right" ? 1 : parts.Length > 1 && parts[1] == "left" ? 3 : 2;
+                int frame = 1, parsed;
+                if (parts.Length > 2 && int.TryParse(parts[2], out parsed)) frame = parsed;
+                return cache[key] = GetHero(direction, frame);
+            }
             string pack = "town"; int tile = 0;
             switch (key)
             {
@@ -21,7 +46,6 @@ namespace HGame.Unity
                 case "enemy": pack = "dungeon"; tile = 108; break; case "boss": pack = "dungeon"; tile = 121; break;
                 case "bed": pack = "dungeon"; tile = 69; break; case "table": pack = "dungeon"; tile = 71; break;
                 case "torch": pack = "dungeon"; tile = 125; break;
-                case "hero_up": case "hero_down": case "hero_left": case "hero_right": pack = "dungeon"; tile = 85; break;
                 case "house": return cache[key] = House();
                 case "roof": tile = 53; break;
                 case "shadow":

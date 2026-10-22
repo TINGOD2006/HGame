@@ -23,7 +23,7 @@ namespace HGame.Unity
         public bool ResultVisible { get; private set; }
         public bool GalleryVisible { get; private set; }
         public bool WindowVisible { get { return window != "" || modal != null || GalleryVisible; } }
-        private RectTransform canvas, content, modal;
+        private RectTransform canvas, content, modal, portraitRoot;
         private TextMeshProUGUI hintText;
         private string status = "一座城鎮，一段新的旅程。", window = "", selected = "";
         private GallerySession gallery;
@@ -46,6 +46,7 @@ namespace HGame.Unity
                 Repository = new SaveRepository(Data,new DiskSaveStore(SaveRoot),s=>(World==null || World.CanSave(s))&&WorldSaveRules.CanSave(s),WorldSaveRules.Resolve);
                 profile=Repository.LoadProfile(); BuildCanvas(); Refresh();
                 if(args.Contains("--jrpg-smoke") || args.Contains("--jrpg-resume")) gameObject.AddComponent<JrpgSmokeRunner>();
+                if(args.Contains("--heroine-preview")) gameObject.AddComponent<HeroinePreviewCapture>();
             }
             catch(Exception e) { Debug.LogException(e); BuildCanvas(); Confirm("啟動失敗",e.Message,()=>Application.Quit(1),false); }
         }
@@ -56,7 +57,8 @@ namespace HGame.Unity
             canvas=(RectTransform)go.transform; go.GetComponent<Canvas>().renderMode=RenderMode.ScreenSpaceOverlay;
             var scale=go.GetComponent<CanvasScaler>(); scale.uiScaleMode=CanvasScaler.ScaleMode.ScaleWithScreenSize;
             scale.referenceResolution=new Vector2(1280,720); scale.matchWidthOrHeight=.5f;
-            content=UiKit.Rect("Content",canvas,0,0,1280,720);
+            content=UiKit.Rect("Content",canvas,0,0,960,720); content.gameObject.AddComponent<RectMask2D>();
+            portraitRoot=UiKit.Rect("HeroineSidebar",canvas,960,0,320,720);
             if(FindFirstObjectByType<EventSystem>()==null)
             { var events=new GameObject("EventSystem",typeof(EventSystem),typeof(InputSystemUIInputModule)); events.GetComponent<InputSystemUIInputModule>().AssignDefaultActions(); }
         }
@@ -162,9 +164,9 @@ namespace HGame.Unity
         }
         private void Confirm(string title,string body,Action accept,bool cancel=true)
         {
-            CloseModal(); modal=UiKit.Rect("Confirmation",canvas,0,0,1280,720);
+            CloseModal(); modal=UiKit.Rect("Confirmation",canvas,0,0,960,720);
             var shade=modal.gameObject.AddComponent<Image>(); shade.color=new Color(0,0,0,.78f);
-            var p=UiKit.PanelAt("Dialog",modal,280,165,720,390,UiKit.Panel).rectTransform;
+            var p=UiKit.PanelAt("Dialog",modal,120,165,720,390,UiKit.Panel).rectTransform;
             UiKit.Text(title,p,28,22,664,45,28,UiKit.Gold); UiKit.Text(body,p,28,88,664,205,21);
             UiKit.Button("ModalAccept","確認",p,28,310,cancel?320:664,52,()=>{CloseModal();accept?.Invoke();},true,UiKit.Hex("38645F"));
             if(cancel) UiKit.Button("ModalCancel","返回",p,372,310,320,52,()=>{CloseModal();ApplyLock();}); ApplyLock();
