@@ -31,6 +31,7 @@ TestResults/
 !.env.example
 /tmp/
 /temp/
+/work/
 *.tmp
 *.log
 .DS_Store

@@ -1,0 +1,12 @@
+{
+  "Items": [
+    {"Id": "attack", "Name": "普通攻擊", "Description": "對一名敵人造成 18 點 HP 傷害。", "JobId": "Any", "PhaseId": "Normal", "Effect": "Damage", "HpCost": 0, "MpCost": 0, "Damage": 18, "HIncrease": 0, "StunIncrease": 0, "AllTargets": false, "MagicOnly": false},
+    {"Id": "slash", "Name": "斬擊", "Description": "支付 5 HP，對一名敵人造成 30 點 HP 傷害；支付後須保留 1 HP。", "JobId": "Swordsman", "PhaseId": "Normal", "Effect": "Damage", "HpCost": 5, "MpCost": 0, "Damage": 30, "HIncrease": 0, "StunIncrease": 0, "AllTargets": false, "MagicOnly": false},
+    {"Id": "dance", "Name": "群舞", "Description": "支付 4 HP，使全體敵人暈眩累積增加 40；同時暈眩全體即可普通勝利。", "JobId": "Dancer", "PhaseId": "Normal", "Effect": "Stun", "HpCost": 4, "MpCost": 0, "Damage": 0, "HIncrease": 0, "StunIncrease": 40, "AllTargets": true, "MagicOnly": false},
+    {"Id": "enter_deep", "Name": "深度切換", "Description": "支付 1 MP 與一次當日額度，進入深度階段；HP 保留且不計敗北。", "JobId": "Any", "PhaseId": "Normal", "Effect": "EnterDeep", "HpCost": 0, "MpCost": 1, "Damage": 0, "HIncrease": 0, "StunIncrease": 0, "AllTargets": false, "MagicOnly": false},
+    {"Id": "h_touch", "Name": "共鳴", "Description": "支付 1 MP，單一目標 H 增加 80；支付後須保留 1 MP。", "JobId": "Any", "PhaseId": "Deep", "Effect": "H", "HpCost": 0, "MpCost": 1, "Damage": 0, "HIncrease": 80, "StunIncrease": 0, "AllTargets": false, "MagicOnly": false},
+    {"Id": "h_corrupt", "Name": "深層共鳴", "Description": "轉變後解鎖。支付 2 MP，依序使全體敵人 H 增加 140；支付後須保留 1 MP。", "JobId": "Any", "PhaseId": "Deep", "Effect": "H", "HpCost": 0, "MpCost": 2, "Damage": 0, "HIncrease": 140, "StunIncrease": 0, "AllTargets": true, "MagicOnly": true},
+    {"Id": "defend", "Name": "防禦", "Description": "消耗一次行動，下一敵方回合受到的 HP 傷害減半，至少 1。", "JobId": "Any", "PhaseId": "Normal", "Effect": "Defend", "HpCost": 0, "MpCost": 0, "Damage": 0, "HIncrease": 0, "StunIncrease": 0, "AllTargets": false, "MagicOnly": false},
+    {"Id": "wait", "Name": "等待", "Description": "不消耗資源，推進一次敵方回合；深度階段不減少敵方 H 增量。", "JobId": "Any", "PhaseId": "Both", "Effect": "Wait", "HpCost": 0, "MpCost": 0, "Damage": 0, "HIncrease": 0, "StunIncrease": 0, "AllTargets": false, "MagicOnly": false}
+  ]
+}

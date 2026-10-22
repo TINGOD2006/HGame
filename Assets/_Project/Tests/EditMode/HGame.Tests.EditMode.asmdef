@@ -1,0 +1,7 @@
+{
+  "name": "HGame.Tests.EditMode",
+  "references": ["HGame.Core"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"],
+  "autoReferenced": false
+}

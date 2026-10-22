@@ -1,0 +1,7 @@
+{
+  "Items": [
+    {"Id": "slime", "Name": "迷宮能量體", "Description": "一般戰鬥用抽象占位；不對應成人事件角色。", "Hp": 50, "Damage": 8, "Stamina": 2, "HAttack": 25, "StunThreshold": 60, "CorruptedDamageBonus": 2, "CorruptedHAttackBonus": 5, "IsBoss": false},
+    {"Id": "guardian", "Name": "迷宮守衛", "Description": "較耐久的戰鬥占位；成人事件不由敵人種類自動推定。", "Hp": 70, "Damage": 10, "Stamina": 2, "HAttack": 35, "StunThreshold": 90, "CorruptedDamageBonus": 2, "CorruptedHAttackBonus": 5, "IsBoss": false},
+    {"Id": "boss", "Name": "迷宮核心", "Description": "首章首領占位；可累積暈眩，沒有永久控制免疫。", "Hp": 160, "Damage": 14, "Stamina": 3, "HAttack": 40, "StunThreshold": 150, "CorruptedDamageBonus": 2, "CorruptedHAttackBonus": 5, "IsBoss": true}
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "HGame.Tests.Runtime",
+  "references": ["HGame.Unity", "HGame.Core"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"],
+  "autoReferenced": false
+}

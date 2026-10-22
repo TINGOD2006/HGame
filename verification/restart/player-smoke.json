@@ -1,0 +1,20 @@
+{
+    "Build": "0.1.0",
+    "StartedUtc": "2026-10-22T05:49:26.3151837Z",
+    "FinishedUtc": "2026-10-22T05:49:27.1777106Z",
+    "Status": "passed",
+    "Error": "",
+    "SaveRoot": "C:/Users/TINGOD/AppData/LocalLow/TINGOD/HGame System Demo\\HGameDemo\\Verification\\release-1280-20261022054904664",
+    "Width": 1280,
+    "Height": 720,
+    "Method": "真實 Windows Player 中的正式 UI 事件及遊戲命令自動走查；不等同人工滑鼠點擊。",
+    "Checks": [
+        "冷啟動前磁碟存檔為上一程序的旅程",
+        "InputSystem 合成指標點擊 UI：Continue",
+        "另一個 Player 程序以繼續恢復同一旅程",
+        "真實關閉重啟的 Continue 不增加回退",
+        "InputSystem 合成指標點擊 UI：Gallery",
+        "InputSystem 合成指標點擊 UI：PlayGallery",
+        "重啟後回想解鎖仍可播放"
+    ]
+}

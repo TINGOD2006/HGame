@@ -1,0 +1,7 @@
+{
+  "name": "HGame.Editor",
+  "rootNamespace": "HGame.Editor",
+  "references": ["HGame.Core", "HGame.Unity", "Unity.TextMeshPro", "Unity.RenderPipelines.Core.Runtime", "Unity.RenderPipelines.Universal.Runtime"],
+  "includePlatforms": ["Editor"],
+  "autoReferenced": true
+}

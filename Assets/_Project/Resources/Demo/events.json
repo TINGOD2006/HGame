@@ -1,0 +1,16 @@
+{
+  "Items": [
+    {"Id": "activity_work", "Name": "一般工作", "Body": "完成一個時段的工作，獲得穩定收入。", "Kind": "Activity", "Choices": [{"Id": "work", "Name": "工作", "Description": "消耗一時段，獲得 45 金。", "GoldDelta": 45, "VirtueDelta": 0, "HExpDelta": 0}]},
+    {"Id": "activity_adult", "Name": "成人工作", "Body": "所有參與者均為成年人。本版只顯示時間、報酬與成長結算，不播放成人演出。", "Kind": "Activity", "Choices": [{"Id": "adult_work", "Name": "接受成人工作", "Description": "消耗一時段，獲得 25 金及 10 H EXP；本占位選項不改變善惡與純潔資格。", "GoldDelta": 25, "VirtueDelta": 0, "HExpDelta": 10}]},
+    {"Id": "supply", "Name": "補給取捨", "Body": "補給有限，請選擇處理方式。每個補給節點只結算一次。", "Kind": "Supply", "Choices": [
+      {"Id": "support", "Name": "支援補給", "Description": "支付 10 金，善惡 +10；金錢不足時不可選。", "GoldDelta": -10, "VirtueDelta": 10, "HExpDelta": 0},
+      {"Id": "take", "Name": "優先取得物資", "Description": "獲得 10 金，善惡 −10。", "GoldDelta": 10, "VirtueDelta": -10, "HExpDelta": 0}
+    ]},
+    {"Id": "memory_hint", "Name": "記憶異樣", "Body": "某段經歷的核心依然清楚，時間與來由卻無法接上。她暫時沒有說明這份異樣。", "Kind": "Memory", "Choices": [{"Id": "close", "Name": "暫時放下", "Description": "關閉提示，不增加讀檔次數或改變路線。", "GoldDelta": 0, "VirtueDelta": 0, "HExpDelta": 0}]},
+    {"Id": "route_branch", "Name": "重大轉變", "Body": "繼續深入會帶來更強的深度技能，也將改變往後的敵人與難度。確認後路線鎖定，只有讀回分歧前的存檔才能回退。", "Kind": "Branch", "Choices": [
+      {"Id": "keep", "Name": "維持現狀", "Description": "保留尚未解明的記憶，這次不接受轉變；之後仍可再訪。", "GoldDelta": 0, "VirtueDelta": 0, "HExpDelta": 0},
+      {"Id": "accept", "Name": "接受不可逆改變", "Description": "確認力量與難度的改變，鎖定路線；一般行動不能解除鎖定。", "GoldDelta": 0, "VirtueDelta": 0, "HExpDelta": 0}
+    ]},
+    {"Id": "gallery_reference", "Name": "回想・記憶片段", "Body": "這裡只重播已解鎖的狀態片段。退出後正式遊玩維持原樣，不提供報酬，也不新增經歷或記憶。", "Kind": "Gallery", "Choices": [{"Id": "close", "Name": "結束回想", "Description": "返回畫廊。", "GoldDelta": 0, "VirtueDelta": 0, "HExpDelta": 0}]}
+  ]
+}

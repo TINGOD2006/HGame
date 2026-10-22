@@ -1,0 +1,20 @@
+{
+  "Items": [
+    {"Id": "c1_n01", "Name": "第一階段・記憶戰鬥", "Kind": "Battle", "Description": "指定失敗位置；失敗後真正回退才可能留下本章特殊記憶。", "MemoryId": "memory_c1", "Chapter": 1, "Index": 1, "Stage": 1, "IsMemorySite": true, "IsBoss": false, "EnemyIds": ["slime"]},
+    {"Id": "c1_n02", "Name": "第一存檔點", "Kind": "Save", "Description": "保存進度，不恢復 HP 或 MP。", "MemoryId": "", "Chapter": 1, "Index": 2, "Stage": 1, "IsMemorySite": false, "IsBoss": false, "EnemyIds": []},
+    {"Id": "c1_n03", "Name": "第一補給點", "Kind": "Supply", "Description": "支援補給或優先取得物資；獎勵只結算一次。", "MemoryId": "", "Chapter": 1, "Index": 3, "Stage": 1, "IsMemorySite": false, "IsBoss": false, "EnemyIds": []},
+    {"Id": "c1_n04", "Name": "第二存檔點", "Kind": "Save", "Description": "保存第一階段進度，不免費恢復。", "MemoryId": "", "Chapter": 1, "Index": 4, "Stage": 1, "IsMemorySite": false, "IsBoss": false, "EnemyIds": []},
+    {"Id": "c1_n05", "Name": "第二階段・多敵戰鬥", "Kind": "Battle", "Description": "同時面對兩個目標，驗證群體暈眩與逐目標結算。", "MemoryId": "", "Chapter": 1, "Index": 5, "Stage": 2, "IsMemorySite": false, "IsBoss": false, "EnemyIds": ["slime", "guardian"]},
+    {"Id": "c1_n06", "Name": "第三存檔點", "Kind": "Save", "Description": "保存進度，不恢復 HP 或 MP。", "MemoryId": "", "Chapter": 1, "Index": 6, "Stage": 2, "IsMemorySite": false, "IsBoss": false, "EnemyIds": []},
+    {"Id": "c1_n07", "Name": "第二補給點", "Kind": "Supply", "Description": "第二次獨立補給選擇，獎勵只結算一次。", "MemoryId": "", "Chapter": 1, "Index": 7, "Stage": 2, "IsMemorySite": false, "IsBoss": false, "EnemyIds": []},
+    {"Id": "c1_n08", "Name": "第四存檔點", "Kind": "Save", "Description": "保存第二階段進度，不免費恢復。", "MemoryId": "", "Chapter": 1, "Index": 8, "Stage": 2, "IsMemorySite": false, "IsBoss": false, "EnemyIds": []},
+    {"Id": "c1_n09", "Name": "第三階段・多敵戰鬥", "Kind": "Battle", "Description": "首領前的多目標戰鬥。", "MemoryId": "", "Chapter": 1, "Index": 9, "Stage": 3, "IsMemorySite": false, "IsBoss": false, "EnemyIds": ["guardian", "slime"]},
+    {"Id": "c1_n10", "Name": "第五存檔點", "Kind": "Save", "Description": "保存首領前進度，不免費恢復。", "MemoryId": "", "Chapter": 1, "Index": 10, "Stage": 3, "IsMemorySite": false, "IsBoss": false, "EnemyIds": []},
+    {"Id": "c1_n11", "Name": "第一章首領", "Kind": "Battle", "Description": "HP、精力或舞者暈眩途徑均可完成攻略。", "MemoryId": "", "Chapter": 1, "Index": 11, "Stage": 3, "IsMemorySite": false, "IsBoss": true, "EnemyIds": ["boss"]},
+    {"Id": "c1_n12", "Name": "第六存檔點", "Kind": "Save", "Description": "本章終點；剩餘日期仍可進行本章活動。", "MemoryId": "", "Chapter": 1, "Index": 12, "Stage": 3, "IsMemorySite": false, "IsBoss": false, "EnemyIds": []},
+    {"Id": "c2_n01", "Name": "第二章・記憶驗證", "Kind": "Battle", "Description": "第二章獨立的指定失敗位置，僅驗證跨章特殊記憶。", "MemoryId": "memory_c2", "Chapter": 2, "Index": 1, "Stage": 1, "IsMemorySite": true, "IsBoss": false, "EnemyIds": ["guardian"]},
+    {"Id": "c2_n02", "Name": "驗證段存檔點一", "Kind": "Save", "Description": "短段落存檔點，不免費恢復。", "MemoryId": "", "Chapter": 2, "Index": 2, "Stage": 1, "IsMemorySite": false, "IsBoss": false, "EnemyIds": []},
+    {"Id": "c2_n03", "Name": "驗證段補給點", "Kind": "Supply", "Description": "短段落補給占位；不是完整第二章內容。", "MemoryId": "", "Chapter": 2, "Index": 3, "Stage": 1, "IsMemorySite": false, "IsBoss": false, "EnemyIds": []},
+    {"Id": "c2_n04", "Name": "驗證段存檔點二", "Kind": "Save", "Description": "本次短段落終點，可選擇完成試玩。", "MemoryId": "", "Chapter": 2, "Index": 4, "Stage": 1, "IsMemorySite": false, "IsBoss": false, "EnemyIds": []}
+  ]
+}

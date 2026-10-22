@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="43" result="Passed" total="43" passed="43" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.4755371">
+  <test-suite type="TestSuite" id="1000" name="HGame System Demo" fullname="HGame System Demo" runstate="Runnable" testcasecount="43" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.475537" total="43" passed="43" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1033" name="HGame.Tests.EditMode.dll" fullname="C:/Users/TINGOD/Desktop/CodeHome/HGame/Library/ScriptAssemblies/HGame.Tests.EditMode.dll" runstate="Runnable" testcasecount="27" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.109139" total="27" passed="27" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="20036" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1034" name="HGame" fullname="HGame" runstate="Runnable" testcasecount="27" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.108686" total="27" passed="27" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1035" name="Tests" fullname="HGame.Tests" runstate="Runnable" testcasecount="27" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.108427" total="27" passed="27" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1001" name="BattleFlowTests" fullname="HGame.Tests.BattleFlowTests" classname="HGame.Tests.BattleFlowTests" runstate="Runnable" testcasecount="10" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.060805" total="10" passed="10" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1003" name="ActiveEntryKeepsHp_AndDoesNotCountAsFinalDefeat" fullname="HGame.Tests.BattleFlowTests.ActiveEntryKeepsHp_AndDoesNotCountAsFinalDefeat" methodname="ActiveEntryKeepsHp_AndDoesNotCountAsFinalDefeat" classname="HGame.Tests.BattleFlowTests" runstate="Runnable" seed="2049150399" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.022713" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1010" name="DamageTransferUsesOneSharedProgressBudget" fullname="HGame.Tests.BattleFlowTests.DamageTransferUsesOneSharedProgressBudget" classname="HGame.Tests.BattleFlowTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.009685" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1007" name="DamageTransferUsesOneSharedProgressBudget(100,3,0)" fullname="HGame.Tests.BattleFlowTests.DamageTransferUsesOneSharedProgressBudget(100,3,0)" methodname="DamageTransferUsesOneSharedProgressBudget" classname="HGame.Tests.BattleFlowTests" runstate="Runnable" seed="69018721" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.003624" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1008" name="DamageTransferUsesOneSharedProgressBudget(75,3,75)" fullname="HGame.Tests.BattleFlowTests.DamageTransferUsesOneSharedProgressBudget(75,3,75)" methodname="DamageTransferUsesOneSharedProgressBudget" classname="HGame.Tests.BattleFlowTests" runstate="Runnable" seed="764070149" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.001934" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1009" name="DamageTransferUsesOneSharedProgressBudget(50,2,50)" fullname="HGame.Tests.BattleFlowTests.DamageTransferUsesOneSharedProgressBudget(50,2,50)" methodname="DamageTransferUsesOneSharedProgressBudget" classname="HGame.Tests.BattleFlowTests" runstate="Runnable" seed="565915149" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.001860" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1011" name="DeadEnemiesDoNotJoinDeep_AndOneLivingEnemyDefeatIsNotWholeBattleVictory" fullname="HGame.Tests.BattleFlowTests.DeadEnemiesDoNotJoinDeep_AndOneLivingEnemyDefeatIsNotWholeBattleVictory" methodname="DeadEnemiesDoNotJoinDeep_AndOneLivingEnemyDefeatIsNotWholeBattleVictory" classname="HGame.Tests.BattleFlowTests" runstate="Runnable" seed="449264654" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.003375" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1006" name="FinalEnemyHDefeatStopsEnemyTurnAndCannotAwardTwice" fullname="HGame.Tests.BattleFlowTests.FinalEnemyHDefeatStopsEnemyTurnAndCannotAwardTwice" methodname="FinalEnemyHDefeatStopsEnemyTurnAndCannotAwardTwice" classname="HGame.Tests.BattleFlowTests" runstate="Runnable" seed="1922251742" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.003667" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1004" name="KnockdownHVictoryDoesNotHealOrRepeatDefeat_AndZeroHpCannotExplore" fullname="HGame.Tests.BattleFlowTests.KnockdownHVictoryDoesNotHealOrRepeatDefeat_AndZeroHpCannotExplore" methodname="KnockdownHVictoryDoesNotHealOrRepeatDefeat_AndZeroHpCannotExplore" classname="HGame.Tests.BattleFlowTests" runstate="Runnable" seed="140034867" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.003391" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1005" name="LastMpCannotBePaid_ButWaitingStillAllowsAnOrderedDefeat" fullname="HGame.Tests.BattleFlowTests.LastMpCannotBePaid_ButWaitingStillAllowsAnOrderedDefeat" methodname="LastMpCannotBePaid_ButWaitingStillAllowsAnOrderedDefeat" classname="HGame.Tests.BattleFlowTests" runstate="Runnable" seed="1702317131" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.002895" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1002" name="PhysicalPaymentCannotKnockOutHero_AndOrdinaryMpZeroIsNotDefeat" fullname="HGame.Tests.BattleFlowTests.PhysicalPaymentCannotKnockOutHero_AndOrdinaryMpZeroIsNotDefeat" methodname="PhysicalPaymentCannotKnockOutHero_AndOrdinaryMpZeroIsNotDefeat" classname="HGame.Tests.BattleFlowTests" runstate="Runnable" seed="939272870" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.001920" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1012" name="StunVictoryRequiresOverlap_AndBossCanBeStunned" fullname="HGame.Tests.BattleFlowTests.StunVictoryRequiresOverlap_AndBossCanBeStunned" methodname="StunVictoryRequiresOverlap_AndBossCanBeStunned" classname="HGame.Tests.BattleFlowTests" runstate="Runnable" seed="1231423614" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.003771" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1013" name="RewindAndRouteTests" fullname="HGame.Tests.RewindAndRouteTests" classname="HGame.Tests.RewindAndRouteTests" runstate="Runnable" testcasecount="17" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.046947" total="17" passed="17" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1023" name="AcceptingTransformationIsExplicitAndReplaySafe" fullname="HGame.Tests.RewindAndRouteTests.AcceptingTransformationIsExplicitAndReplaySafe" methodname="AcceptingTransformationIsExplicitAndReplaySafe" classname="HGame.Tests.RewindAndRouteTests" runstate="Runnable" seed="1616861367" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.008715" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1020" name="ContinueAndForeignJourneyDoNotCountAsRewind" fullname="HGame.Tests.RewindAndRouteTests.ContinueAndForeignJourneyDoNotCountAsRewind" methodname="ContinueAndForeignJourneyDoNotCountAsRewind" classname="HGame.Tests.RewindAndRouteTests" runstate="Runnable" seed="878784978" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.002922" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1022" name="DifferentChapterReceiptsRemainDifferentMemories" fullname="HGame.Tests.RewindAndRouteTests.DifferentChapterReceiptsRemainDifferentMemories" methodname="DifferentChapterReceiptsRemainDifferentMemories" classname="HGame.Tests.RewindAndRouteTests" runstate="Runnable" seed="1701577213" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.002982" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1019" name="LoadCountsDiscardedExperience_AndOnlyErasedFailureProducesMemory" fullname="HGame.Tests.RewindAndRouteTests.LoadCountsDiscardedExperience_AndOnlyErasedFailureProducesMemory" classname="HGame.Tests.RewindAndRouteTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.009797" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1014" name="LoadCountsDiscardedExperience_AndOnlyErasedFailureProducesMemory(&quot;failure&quot;,&quot;before&quot;,True,True)" fullname="HGame.Tests.RewindAndRouteTests.LoadCountsDiscardedExperience_AndOnlyErasedFailureProducesMemory(&quot;failure&quot;,&quot;before&quot;,True,True)" methodname="LoadCountsDiscardedExperience_AndOnlyErasedFailureProducesMemory" classname="HGame.Tests.RewindAndRouteTests" runstate="Runnable" seed="1500134670" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.002440" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1015" name="LoadCountsDiscardedExperience_AndOnlyErasedFailureProducesMemory(&quot;failure&quot;,&quot;side&quot;,True,True)" fullname="HGame.Tests.RewindAndRouteTests.LoadCountsDiscardedExperience_AndOnlyErasedFailureProducesMemory(&quot;failure&quot;,&quot;side&quot;,True,True)" methodname="LoadCountsDiscardedExperience_AndOnlyErasedFailureProducesMemory" classname="HGame.Tests.RewindAndRouteTests" runstate="Runnable" seed="802826627" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.001666" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1016" name="LoadCountsDiscardedExperience_AndOnlyErasedFailureProducesMemory(&quot;failure&quot;,&quot;failure&quot;,False,False)" fullname="HGame.Tests.RewindAndRouteTests.LoadCountsDiscardedExperience_AndOnlyErasedFailureProducesMemory(&quot;failure&quot;,&quot;failure&quot;,False,False)" methodname="LoadCountsDiscardedExperience_AndOnlyErasedFailureProducesMemory" classname="HGame.Tests.RewindAndRouteTests" runstate="Runnable" seed="2101933280" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.001558" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1017" name="LoadCountsDiscardedExperience_AndOnlyErasedFailureProducesMemory(&quot;before&quot;,&quot;after&quot;,False,False)" fullname="HGame.Tests.RewindAndRouteTests.LoadCountsDiscardedExperience_AndOnlyErasedFailureProducesMemory(&quot;before&quot;,&quot;after&quot;,False,False)" methodname="LoadCountsDiscardedExperience_AndOnlyErasedFailureProducesMemory" classname="HGame.Tests.RewindAndRouteTests" runstate="Runnable" seed="518777741" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.001603" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1018" name="LoadCountsDiscardedExperience_AndOnlyErasedFailureProducesMemory(&quot;after&quot;,&quot;failure&quot;,True,False)" fullname="HGame.Tests.RewindAndRouteTests.LoadCountsDiscardedExperience_AndOnlyErasedFailureProducesMemory(&quot;after&quot;,&quot;failure&quot;,True,False)" methodname="LoadCountsDiscardedExperience_AndOnlyErasedFailureProducesMemory" classname="HGame.Tests.RewindAndRouteTests" runstate="Runnable" seed="1521124528" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.001734" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="ParameterizedMethod" id="1031" name="MissingAnyNecessaryGatePreventsTransformation" fullname="HGame.Tests.RewindAndRouteTests.MissingAnyNecessaryGatePreventsTransformation" classname="HGame.Tests.RewindAndRouteTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.013646" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1024" name="MissingAnyNecessaryGatePreventsTransformation(&quot;rewinds&quot;)" fullname="HGame.Tests.RewindAndRouteTests.MissingAnyNecessaryGatePreventsTransformation(&quot;rewinds&quot;)" methodname="MissingAnyNecessaryGatePreventsTransformation" classname="HGame.Tests.RewindAndRouteTests" runstate="Runnable" seed="1381638534" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.001878" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1025" name="MissingAnyNecessaryGatePreventsTransformation(&quot;memory&quot;)" fullname="HGame.Tests.RewindAndRouteTests.MissingAnyNecessaryGatePreventsTransformation(&quot;memory&quot;)" methodname="MissingAnyNecessaryGatePreventsTransformation" classname="HGame.Tests.RewindAndRouteTests" runstate="Runnable" seed="1734798267" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.001464" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1026" name="MissingAnyNecessaryGatePreventsTransformation(&quot;defeats&quot;)" fullname="HGame.Tests.RewindAndRouteTests.MissingAnyNecessaryGatePreventsTransformation(&quot;defeats&quot;)" methodname="MissingAnyNecessaryGatePreventsTransformation" classname="HGame.Tests.RewindAndRouteTests" runstate="Runnable" seed="2003316" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.001676" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1027" name="MissingAnyNecessaryGatePreventsTransformation(&quot;virtue&quot;)" fullname="HGame.Tests.RewindAndRouteTests.MissingAnyNecessaryGatePreventsTransformation(&quot;virtue&quot;)" methodname="MissingAnyNecessaryGatePreventsTransformation" classname="HGame.Tests.RewindAndRouteTests" runstate="Runnable" seed="86480550" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.001576" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1028" name="MissingAnyNecessaryGatePreventsTransformation(&quot;growth&quot;)" fullname="HGame.Tests.RewindAndRouteTests.MissingAnyNecessaryGatePreventsTransformation(&quot;growth&quot;)" methodname="MissingAnyNecessaryGatePreventsTransformation" classname="HGame.Tests.RewindAndRouteTests" runstate="Runnable" seed="319072156" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.002030" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1029" name="MissingAnyNecessaryGatePreventsTransformation(&quot;victory&quot;)" fullname="HGame.Tests.RewindAndRouteTests.MissingAnyNecessaryGatePreventsTransformation(&quot;victory&quot;)" methodname="MissingAnyNecessaryGatePreventsTransformation" classname="HGame.Tests.RewindAndRouteTests" runstate="Runnable" seed="101176209" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.002047" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1030" name="MissingAnyNecessaryGatePreventsTransformation(&quot;other-route&quot;)" fullname="HGame.Tests.RewindAndRouteTests.MissingAnyNecessaryGatePreventsTransformation(&quot;other-route&quot;)" methodname="MissingAnyNecessaryGatePreventsTransformation" classname="HGame.Tests.RewindAndRouteTests" runstate="Runnable" seed="223122663" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.002085" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1032" name="SnapshotsDoNotLeakMutableCollections_AndNewJourneyKeepsOnlyProfileUnlocks" fullname="HGame.Tests.RewindAndRouteTests.SnapshotsDoNotLeakMutableCollections_AndNewJourneyKeepsOnlyProfileUnlocks" methodname="SnapshotsDoNotLeakMutableCollections_AndNewJourneyKeepsOnlyProfileUnlocks" classname="HGame.Tests.RewindAndRouteTests" runstate="Runnable" seed="410200043" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.005130" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1021" name="TransactionReplayCannotDuplicateRewindsOrChapterMemory" fullname="HGame.Tests.RewindAndRouteTests.TransactionReplayCannotDuplicateRewindsOrChapterMemory" methodname="TransactionReplayCannotDuplicateRewindsOrChapterMemory" classname="HGame.Tests.RewindAndRouteTests" runstate="Runnable" seed="2013202910" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.001945" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+    <test-suite type="Assembly" id="1055" name="HGame.Tests.Runtime.dll" fullname="C:/Users/TINGOD/Desktop/CodeHome/HGame/Library/ScriptAssemblies/HGame.Tests.Runtime.dll" runstate="Runnable" testcasecount="16" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.360614" total="16" passed="16" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="20036" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1056" name="HGame" fullname="HGame" runstate="Runnable" testcasecount="16" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.360229" total="16" passed="16" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1057" name="Tests" fullname="HGame.Tests" runstate="Runnable" testcasecount="16" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.360038" total="16" passed="16" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1058" name="Runtime" fullname="HGame.Tests.Runtime" runstate="Runnable" testcasecount="16" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.359855" total="16" passed="16" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1036" name="CalendarAndReachabilityTests" fullname="HGame.Tests.Runtime.CalendarAndReachabilityTests" classname="HGame.Tests.Runtime.CalendarAndReachabilityTests" runstate="Runnable" testcasecount="8" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.041795" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1044" name="DeadlineWithoutBossClearIsGameOverAndCannotUseGeneralFallback" fullname="HGame.Tests.Runtime.CalendarAndReachabilityTests.DeadlineWithoutBossClearIsGameOverAndCannotUseGeneralFallback" methodname="DeadlineWithoutBossClearIsGameOverAndCannotUseGeneralFallback" classname="HGame.Tests.Runtime.CalendarAndReachabilityTests" runstate="Runnable" seed="813767812" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.010600" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1038" name="LateNightBlocksEveryOutdoorCommand_ButRestRecoversAndAdvances" fullname="HGame.Tests.Runtime.CalendarAndReachabilityTests.LateNightBlocksEveryOutdoorCommand_ButRestRecoversAndAdvances" methodname="LateNightBlocksEveryOutdoorCommand_ButRestRecoversAndAdvances" classname="HGame.Tests.Runtime.CalendarAndReachabilityTests" runstate="Runnable" seed="1790150638" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.001239" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1045" name="NormalCommandsReachMagicBranchAndDaySixBoss_ThenSecondChapterMemory" fullname="HGame.Tests.Runtime.CalendarAndReachabilityTests.NormalCommandsReachMagicBranchAndDaySixBoss_ThenSecondChapterMemory" methodname="NormalCommandsReachMagicBranchAndDaySixBoss_ThenSecondChapterMemory" classname="HGame.Tests.Runtime.CalendarAndReachabilityTests" runstate="Runnable" seed="1619387239" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.022894" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1037" name="RevisitingClearedBattleDoesNotGrantExperienceAgain" fullname="HGame.Tests.Runtime.CalendarAndReachabilityTests.RevisitingClearedBattleDoesNotGrantExperienceAgain" methodname="RevisitingClearedBattleDoesNotGrantExperienceAgain" classname="HGame.Tests.Runtime.CalendarAndReachabilityTests" runstate="Runnable" seed="1627532527" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.003060" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-suite type="ParameterizedMethod" id="1043" name="StageOpenDateCannotBeBypassedByHavingEarlierProgress" fullname="HGame.Tests.Runtime.CalendarAndReachabilityTests.StageOpenDateCannotBeBypassedByHavingEarlierProgress" classname="HGame.Tests.Runtime.CalendarAndReachabilityTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.003063" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1039" name="StageOpenDateCannotBeBypassedByHavingEarlierProgress(2,&quot;c1_n05&quot;,False)" fullname="HGame.Tests.Runtime.CalendarAndReachabilityTests.StageOpenDateCannotBeBypassedByHavingEarlierProgress(2,&quot;c1_n05&quot;,False)" methodname="StageOpenDateCannotBeBypassedByHavingEarlierProgress" classname="HGame.Tests.Runtime.CalendarAndReachabilityTests" runstate="Runnable" seed="998836427" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.001147" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1040" name="StageOpenDateCannotBeBypassedByHavingEarlierProgress(3,&quot;c1_n05&quot;,True)" fullname="HGame.Tests.Runtime.CalendarAndReachabilityTests.StageOpenDateCannotBeBypassedByHavingEarlierProgress(3,&quot;c1_n05&quot;,True)" methodname="StageOpenDateCannotBeBypassedByHavingEarlierProgress" classname="HGame.Tests.Runtime.CalendarAndReachabilityTests" runstate="Runnable" seed="1735650444" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.000441" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1041" name="StageOpenDateCannotBeBypassedByHavingEarlierProgress(5,&quot;c1_n09&quot;,False)" fullname="HGame.Tests.Runtime.CalendarAndReachabilityTests.StageOpenDateCannotBeBypassedByHavingEarlierProgress(5,&quot;c1_n09&quot;,False)" methodname="StageOpenDateCannotBeBypassedByHavingEarlierProgress" classname="HGame.Tests.Runtime.CalendarAndReachabilityTests" runstate="Runnable" seed="310462785" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.000332" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1042" name="StageOpenDateCannotBeBypassedByHavingEarlierProgress(6,&quot;c1_n09&quot;,True)" fullname="HGame.Tests.Runtime.CalendarAndReachabilityTests.StageOpenDateCannotBeBypassedByHavingEarlierProgress(6,&quot;c1_n09&quot;,True)" methodname="StageOpenDateCannotBeBypassedByHavingEarlierProgress" classname="HGame.Tests.Runtime.CalendarAndReachabilityTests" runstate="Runnable" seed="223963827" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.000312" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+            </test-suite>
+            <test-suite type="TestFixture" id="1046" name="PersistenceAndGalleryTests" fullname="HGame.Tests.Runtime.PersistenceAndGalleryTests" classname="HGame.Tests.Runtime.PersistenceAndGalleryTests" runstate="Runnable" testcasecount="8" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.317770" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1051" name="AtomicReplacementKeepsReadableBackup_AndCorruptionDoesNotDeleteOriginal" fullname="HGame.Tests.Runtime.PersistenceAndGalleryTests.AtomicReplacementKeepsReadableBackup_AndCorruptionDoesNotDeleteOriginal" methodname="AtomicReplacementKeepsReadableBackup_AndCorruptionDoesNotDeleteOriginal" classname="HGame.Tests.Runtime.PersistenceAndGalleryTests" runstate="Runnable" seed="989117845" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.042372" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1048" name="ColdManualLoadReceivesPersistedFailureMemory_WithoutKeepingRolledBackDefeats" fullname="HGame.Tests.Runtime.PersistenceAndGalleryTests.ColdManualLoadReceivesPersistedFailureMemory_WithoutKeepingRolledBackDefeats" methodname="ColdManualLoadReceivesPersistedFailureMemory_WithoutKeepingRolledBackDefeats" classname="HGame.Tests.Runtime.PersistenceAndGalleryTests" runstate="Runnable" seed="846755877" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.057936" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1049" name="CompletedLoadMarkerCannotOverwriteAutoSlotOnRepeatedRepositoryRestart" fullname="HGame.Tests.Runtime.PersistenceAndGalleryTests.CompletedLoadMarkerCannotOverwriteAutoSlotOnRepeatedRepositoryRestart" methodname="CompletedLoadMarkerCannotOverwriteAutoSlotOnRepeatedRepositoryRestart" classname="HGame.Tests.Runtime.PersistenceAndGalleryTests" runstate="Runnable" seed="278738514" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.094184" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1053" name="GalleryPlaySkipCloseCannotChangeFormalRunMetaOrProfile" fullname="HGame.Tests.Runtime.PersistenceAndGalleryTests.GalleryPlaySkipCloseCannotChangeFormalRunMetaOrProfile" methodname="GalleryPlaySkipCloseCannotChangeFormalRunMetaOrProfile" classname="HGame.Tests.Runtime.PersistenceAndGalleryTests" runstate="Runnable" seed="1337635035" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.010544" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1052" name="IncompatibleSaveWithoutBackupIsReportedAndPreserved" fullname="HGame.Tests.Runtime.PersistenceAndGalleryTests.IncompatibleSaveWithoutBackupIsReportedAndPreserved" methodname="IncompatibleSaveWithoutBackupIsReportedAndPreserved" classname="HGame.Tests.Runtime.PersistenceAndGalleryTests" runstate="Runnable" seed="1925840348" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.006015" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1050" name="InterruptedLoadRecoversExactPreparedResult_Once" fullname="HGame.Tests.Runtime.PersistenceAndGalleryTests.InterruptedLoadRecoversExactPreparedResult_Once" methodname="InterruptedLoadRecoversExactPreparedResult_Once" classname="HGame.Tests.Runtime.PersistenceAndGalleryTests" runstate="Runnable" seed="1606744202" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.003948" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1047" name="RealDiskSaveSurvivesRepositoryRestart_AndContinueDoesNotCountRewind" fullname="HGame.Tests.Runtime.PersistenceAndGalleryTests.RealDiskSaveSurvivesRepositoryRestart_AndContinueDoesNotCountRewind" methodname="RealDiskSaveSurvivesRepositoryRestart_AndContinueDoesNotCountRewind" classname="HGame.Tests.Runtime.PersistenceAndGalleryTests" runstate="Runnable" seed="1324260878" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.065616" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1054" name="StartingNewJourneyKeepsProfileUnlocksButNotAnotherJourneysMemory" fullname="HGame.Tests.Runtime.PersistenceAndGalleryTests.StartingNewJourneyKeepsProfileUnlocksButNotAnotherJourneysMemory" methodname="StartingNewJourneyKeepsProfileUnlocksButNotAnotherJourneysMemory" classname="HGame.Tests.Runtime.PersistenceAndGalleryTests" runstate="Runnable" seed="276679163" result="Passed" start-time="2026-10-22 05:48:40Z" end-time="2026-10-22 05:48:40Z" duration="0.035496" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Saving results to: C:/Users/TINGOD/AppData/LocalLow/TINGOD/HGame System Demo\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

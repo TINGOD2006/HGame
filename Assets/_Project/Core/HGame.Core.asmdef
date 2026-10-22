@@ -1,0 +1,7 @@
+{
+  "name": "HGame.Core",
+  "rootNamespace": "HGame.Core",
+  "references": [],
+  "autoReferenced": true,
+  "noEngineReferences": true
+}
