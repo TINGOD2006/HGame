@@ -15,6 +15,7 @@ namespace HGame.Unity
             UiKit.Clear(content); hintText=null;
             var run=Session?.CaptureRun();
             bool fighting=run!=null&&run.Location==GameLocation.Battle;
+            RenderSceneBackdrop(fighting||ResultVisible);
             if(World!=null) World.SetVisible(!MainMenuVisible&&!fighting&&!ResultVisible&&!GalleryVisible);
             if(MainMenuVisible) RenderMainMenu();
             else if(fighting||ResultVisible) RenderCombat();
@@ -53,7 +54,7 @@ namespace HGame.Unity
             UiKit.Button("Continue","繼續旅程",content,86,548,340,58,()=>{if(Session!=null){MainMenuVisible=false;Refresh();}else LoadSlot("auto",LoadIntent.Continue);},Session!=null||Repository.HasSlot("auto"));
             UiKit.Button("MainGallery","回想畫廊",content,450,476,220,58,OpenGallery);
             UiKit.Button("MainQuit","離開",content,450,548,220,58,()=>Application.Quit());
-            UiKit.Text("SYSTEM DEMO 0.2.1\nWASD／方向鍵移動 · E／Enter 互動 · Esc 選單\n所有角色及參與者均成年，地圖為測試配置。",content,86,622,800,60,14,UiKit.Muted);
+            UiKit.Text("SYSTEM DEMO 0.2.2\nWASD／方向鍵移動 · E／Enter 互動 · Esc 選單\n所有角色及參與者均成年，地圖為測試配置。",content,86,622,800,60,14,UiKit.Muted);
         }
         private void RenderHud(RunState run)
         {
@@ -149,16 +150,30 @@ namespace HGame.Unity
         {
             if(portraitRoot==null) return;
             UiKit.Clear(portraitRoot);
-            UiKit.PanelAt("PortraitBackground",portraitRoot,0,0,320,720,UiKit.Hex("172033"));
-            UiKit.PanelAt("PortraitAccent",portraitRoot,0,0,3,720,UiKit.Gold);
-            UiKit.Text("旅人",portraitRoot,22,18,280,32,24,UiKit.Gold);
-            UiKit.Text("成年女主 · 暫定造型",portraitRoot,23,52,280,24,14,UiKit.Muted);
             var rect=UiKit.Rect("HeroineStanding",portraitRoot,4,80,312,632);
             var image=rect.gameObject.AddComponent<RawImage>();image.texture=Resources.Load<Texture2D>("Art/Heroine/heroine-standing");image.raycastTarget=false;
             if(image.texture!=null)
             {
                 float width=632f*image.texture.width/image.texture.height;
                 rect.sizeDelta=new Vector2(width,632);rect.anchoredPosition=new Vector2((320-width)*.5f,-80);
+            }
+        }
+        private void RenderSceneBackdrop(bool fighting)
+        {
+            if(sceneBackdrop==null) return;
+            UiKit.Clear(sceneBackdrop);
+            if(!MainMenuVisible&&!fighting&&!GalleryVisible) return;
+            UiKit.PanelAt("SceneBase",sceneBackdrop,0,0,1280,720,UiKit.Background);
+            if(fighting)
+            {
+                bool deep=Session!=null&&Session.CaptureRun().Battle?.Phase==BattlePhase.Deep;
+                UiKit.PanelAt("ArenaExtension",sceneBackdrop,18,75,1262,400,UiKit.Hex(deep?"252238":"263246"));
+                UiKit.PanelAt("GroundExtension",sceneBackdrop,18,325,1262,150,UiKit.Hex(deep?"393044":"42444C"));
+                for(int i=0;i<20;i++)
+                {
+                    PixelImage("FloorExtension","floor",sceneBackdrop,18+i*64,414,64,64).color=new Color(.48f,.48f,.55f);
+                    if(i%4==0) PixelImage("Column","wall",sceneBackdrop,32+i*60,102,64,176).color=new Color(.55f,.58f,.68f);
+                }
             }
         }
     }

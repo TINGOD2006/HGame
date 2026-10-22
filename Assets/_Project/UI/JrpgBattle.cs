@@ -12,18 +12,10 @@ namespace HGame.Unity
         private TextMeshProUGUI effectText;
         private void RenderCombat()
         {
-            Background();
             var snap=ResultVisible&&battleAfter!=null?battleAfter:Session.Snapshot;
             var run=snap.Run; var battle=run.Battle;
             if(battle==null) return;
             bool deep=battle.Phase==BattlePhase.Deep;
-            UiKit.PanelAt("Arena",content,18,75,924,400,UiKit.Hex(deep?"252238":"263246"));
-            UiKit.PanelAt("ArenaGround",content,18,325,924,150,UiKit.Hex(deep?"393044":"42444C"));
-            for(int i=0;i<15;i++)
-            {
-                PixelImage("Floor", "floor",content,18+i*64,414,64,64).color=new Color(.48f,.48f,.55f);
-                if(i%4==0) PixelImage("Column","wall",content,32+i*60,102,64,176).color=new Color(.55f,.58f,.68f);
-            }
             UiKit.Text(deep?"深度戰鬥":"普通戰鬥",content,28,18,550,40,28,deep?UiKit.Pink:UiKit.Gold);
             UiKit.Text("第 "+battle.Turn+" 回合　·　"+(run.Job==Job.Dancer?"舞者":"劍士"),content,600,25,330,30,20,UiKit.Muted).alignment=TextAlignmentOptions.Right;
             heroActor=PixelImage("BattleHero","hero_left",content,736,214,142,184).rectTransform;

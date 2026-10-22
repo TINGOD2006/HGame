@@ -2,11 +2,11 @@
 
 成年女性主角的日式回合制 RPG。每章 20 天安排迷宮探索與養成，以普通 RPG 或色色系統攻略迷宮，依善惡、探索與失敗紀錄走向五種結局。
 
-**Unity Demo 0.2.1：俯視探索、橫向回合制戰鬥與右側女主立繪**，提供 Windows x64 試玩與工程原始碼。女主立繪與四向小人沿用既有成年造型；成人題材以抽象狀態和資源結算呈現，本版沒有露骨腳本或 CG。
+**Unity Demo 0.2.2：連續行走與透明立繪配置**，提供俯視探索、橫向回合制戰鬥及 Windows x64 試玩。按住方向時步態跨格延續、沒有附加搖擺；女主立繪直接疊在右側場景。成人題材以抽象狀態和資源結算呈現，本版沒有露骨腳本或 CG。
 
 ## 開始試玩
 
-完整解壓縮 Windows 包，執行 `HGameDemo.exe`。需保留同層 Data、DLL、MonoBleedingEdge 等檔案。新版建置位於 `Builds/HGameDemo-0.2.1`，ZIP 位於 `output/HGameDemo-0.2.1-win64.zip`；兩者是本機產物，不提交 Git。舊版 ZIP 保留。
+完整解壓縮 Windows 包，執行 `HGameDemo.exe`。需保留同層 Data、DLL、MonoBleedingEdge 等檔案。新版建置位於 `Builds/HGameDemo-0.2.2`，ZIP 位於 `output/HGameDemo-0.2.2-win64.zip`；兩者是本機產物，不提交 Git。舊版 ZIP 保留。
 
 WASD／方向鍵行走，E／Enter 與面前物件互動，Esc 開選單；戰鬥與視窗使用滑鼠，行動區可滾動。詳見 [操作說明](docs/Demo操作說明.md)。
 
@@ -23,7 +23,7 @@ WASD／方向鍵行走，E／Enter 與面前物件互動，Esc 開選單；戰�
 
 規則位於 `Assets/_Project/Core`，不依賴 UnityEngine；Runtime／UI 負責儲存、展示及輸入。五份 JSON 位於 `Assets/_Project/Resources/Demo`。套件版本見 Packages 內 manifest 與 lock 檔。正式 Ink 劇本尚未整合。
 
-0.2.1 的建置與圖像檢視見 [摘要](verification/0.2.1/summary.md)；本輪未重跑玩法測試。0.2.0 的[規則驗證](verification/0.2.0/summary.md)保留，不能當作新版重跑結果。新增 AI 素材來源與完整提示詞見 [紀錄](docs/09-AI素材使用紀錄.md)，第三方素材見[授權表](docs/第三方素材授權紀錄.md)。
+0.2.2 的建置、兩尺寸行走量測與布局檢查見 [摘要](verification/0.2.2/summary.md)。0.2.0 的[規則驗證](verification/0.2.0/summary.md)保留，不能當作新版重跑結果。AI 素材見 [紀錄](docs/09-AI素材使用紀錄.md)，本輪兩作的介面參考見 [說明](docs/11-介面與行走參考紀錄.md)。
 
 地圖資料位於 `Resources/Demo/Maps`；行走小人、敵人與地圖均為可替換占位素材，正式地圖與玩法細節等待使用者補充。角色最終造型仍依下方概念參考另行製作。
 

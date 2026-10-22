@@ -15,8 +15,8 @@ namespace HGame.Editor
 {
     public static class DemoBuild
     {
-        private const string BuildDirectory = "Builds/HGameDemo-0.2.1";
-        private const string VerificationDirectory = "verification/0.2.1";
+        private const string BuildDirectory = "Builds/HGameDemo-0.2.2";
+        private const string VerificationDirectory = "verification/0.2.2";
         [MenuItem("HGame/Prepare Demo")]
         public static void Prepare()
         {
@@ -80,7 +80,7 @@ namespace HGame.Editor
             EditorSceneManager.SaveScene(scene, "Assets/_Project/Scenes/Demo.unity");
             EditorBuildSettings.scenes = new[] { new EditorBuildSettingsScene("Assets/_Project/Scenes/Demo.unity", true) };
             PlayerSettings.companyName = "TINGOD"; PlayerSettings.productName = "HGame System Demo";
-            PlayerSettings.bundleVersion = "0.2.1"; PlayerSettings.defaultScreenWidth = 1280; PlayerSettings.defaultScreenHeight = 720;
+            PlayerSettings.bundleVersion = "0.2.2"; PlayerSettings.defaultScreenWidth = 1280; PlayerSettings.defaultScreenHeight = 720;
             PlayerSettings.fullScreenMode = FullScreenMode.Windowed; PlayerSettings.resizableWindow = true;
             PlayerSettings.runInBackground = true; PlayerSettings.SetScriptingBackend(NamedBuildTarget.Standalone, ScriptingImplementation.Mono2x);
             AssetDatabase.SaveAssets(); AssetDatabase.Refresh();

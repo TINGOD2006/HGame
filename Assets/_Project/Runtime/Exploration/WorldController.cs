@@ -23,6 +23,9 @@ namespace HGame.Unity
         private Vector2Int position, destination;
         private Vector3 moveFrom;
         private float moveProgress;
+        private float walkPhase;
+        private int currentWalkFrame = 1, movementVersion;
+        private const float CellsPerSecond = 6.4f, WalkFramesPerSecond = 9f;
         private int facing = 2;
         private bool moving, visible = true, locked;
         private bool interactionArmed = true;
@@ -33,6 +36,11 @@ namespace HGame.Unity
         private Sprite fallback;
         public bool InputLocked { get { return locked; } set { locked = value; if (value) interactionArmed = false; } }
         public bool IsMoving { get { return moving; } }
+        public Vector3 HeroWorldPosition { get { return hero == null ? World(position) : hero.transform.position; } }
+        public Quaternion HeroRotation { get { return hero == null ? Quaternion.identity : hero.transform.rotation; } }
+        public int CurrentWalkFrame { get { return currentWalkFrame; } }
+        public float WalkPhase { get { return walkPhase; } }
+        public float GridSpeed { get { return CellsPerSecond; } }
         public Vector2Int Position { get { return position; } }
         public WorldMap Map { get { return map; } }
         public WorldInteraction Nearby { get { return GridRules.InteractionAhead(map, position, facing); } }
@@ -66,7 +74,7 @@ namespace HGame.Unity
                 worldCamera = cameraObject.GetComponent<Camera>(); cameraObject.tag = "MainCamera";
             }
             worldCamera.orthographic = true; worldCamera.orthographicSize = 8.5f;
-            worldCamera.rect = new Rect(0, 0, .75f, 1);
+            worldCamera.rect = new Rect(0, 0, 1, 1);
             worldCamera.backgroundColor = new Color(.08f, .12f, .16f); worldCamera.clearFlags = CameraClearFlags.SolidColor;
             if (read != null) Sync(read().Run, true);
         }
@@ -82,7 +90,7 @@ namespace HGame.Unity
             if (changedMap || force) battleSafeNode = "";
             if (changedMap || force || changedAnchor)
             {
-                moving = false;
+                CancelWalk();
                 WorldPresentationState p;
                 var nodeMarker = map.Interactions.FirstOrDefault(i => !string.IsNullOrEmpty(i.NodeId) && i.NodeId == run.CurrentNodeId);
                 // A completed encounter returns to its actual approach square, not an arbitrary neighbour.
@@ -107,7 +115,7 @@ namespace HGame.Unity
             visible = value;
             if (visualRoot != null) visualRoot.SetActive(value);
             if (worldCamera != null) worldCamera.enabled = value;
-            if (!value) { interactionArmed = false; moving = false; UpdateHero(); }
+            if (!value) { interactionArmed = false; CancelWalk(); UpdateHero(); }
         }
         public void SetGridPosition(int x, int y, int direction)
         {
@@ -116,7 +124,7 @@ namespace HGame.Unity
             string reason = GridRules.BlockedReason(map, x, y, run, data);
             if (reason != "") throw new InvalidOperationException(reason);
             if (!GridRules.IsReachable(map, run, new Vector2Int(x, y), data)) throw new InvalidOperationException("該位置超出目前可到達的範圍。");
-            position = new Vector2Int(x, y); destination = position; facing = direction; moving = false;
+            CancelWalk(); position = new Vector2Int(x, y); destination = position; facing = direction;
             blockedHint = ""; UpdateHero(); EmitPosition(run); UpdateCamera();
         }
         public bool CanSave(GameSnapshot snapshot)
@@ -139,35 +147,68 @@ namespace HGame.Unity
             bool pressed = keyboard != null && (keyboard.eKey.isPressed || keyboard.enterKey.isPressed || keyboard.numpadEnterKey.isPressed);
             if (!pressed) interactionArmed = true;
             if (locked) return;
-            if (moving)
-            {
-                moveProgress += Time.deltaTime * 6.4f;
-                UpdateHeroFrame(moveProgress < .5f ? 0 : 2);
-                Vector3 feet = Vector3.Lerp(moveFrom, World(destination), Mathf.Clamp01(moveProgress));
-                hero.transform.position = feet + Vector3.up * Mathf.Sin(Mathf.Clamp01(moveProgress) * Mathf.PI) * .055f;
-                hero.transform.rotation = Quaternion.Euler(0, 0, Mathf.Sin(moveProgress * Mathf.PI * 2) * 4f);
-                shadow.transform.position = feet + new Vector3(0, -.52f, .01f);
-                if (moveProgress >= 1f) { position = destination; moving = false; UpdateHero(); EmitPosition(read().Run); }
-                UpdateCamera(); return;
-            }
-            if (keyboard == null) return;
-            if (pressed && interactionArmed)
+            if (!moving && pressed && interactionArmed)
             {
                 interactionArmed = false;
                 var near = Nearby;
                 if (near != null) { interact?.Invoke(near); return; }
             }
-            Vector2 input = new Vector2((keyboard.dKey.isPressed || keyboard.rightArrowKey.isPressed ? 1 : 0) - (keyboard.aKey.isPressed || keyboard.leftArrowKey.isPressed ? 1 : 0),
+            Vector2 input = keyboard == null ? Vector2.zero : new Vector2((keyboard.dKey.isPressed || keyboard.rightArrowKey.isPressed ? 1 : 0) - (keyboard.aKey.isPressed || keyboard.leftArrowKey.isPressed ? 1 : 0),
                 (keyboard.sKey.isPressed || keyboard.downArrowKey.isPressed ? 1 : 0) - (keyboard.wKey.isPressed || keyboard.upArrowKey.isPressed ? 1 : 0));
             Vector2Int axis = GridRules.SelectAxis(input);
-            if (axis == Vector2Int.zero) return;
+            if (!moving && !TryStartStep(axis)) return;
+            AdvanceWalk(axis, Time.deltaTime);
+            UpdateCamera();
+        }
+        private bool TryStartStep(Vector2Int axis)
+        {
+            if (axis == Vector2Int.zero || locked || !visible) return false;
             int nextFacing = GridRules.Facing(axis);
-            if (nextFacing != facing) { facing = nextFacing; UpdateHero(); EmitPosition(read().Run); }
-            destination = position + axis;
-            var run = read().Run;
-            blockedHint = MovementReason(destination, run);
-            if (blockedHint != "") return;
-            moveFrom = World(position); moveProgress = 0; moving = true;
+            if (nextFacing != facing)
+            {
+                facing = nextFacing;
+                UpdateHeroFrame(moving ? currentWalkFrame : 1);
+                EmitPosition(read().Run);
+            }
+            Vector2Int next = position + axis;
+            blockedHint = MovementReason(next, read().Run);
+            if (blockedHint != "") return false;
+            destination = next; moveFrom = World(position); moveProgress = 0; moving = true;
+            return true;
+        }
+        private void AdvanceWalk(Vector2Int axis, float deltaTime)
+        {
+            float distanceLeft = Mathf.Max(0, deltaTime) * CellsPerSecond;
+            int version = movementVersion;
+            while (moving && distanceLeft > 0)
+            {
+                float distance = Mathf.Min(distanceLeft, 1f - moveProgress);
+                moveProgress += distance; distanceLeft -= distance;
+                walkPhase = (walkPhase + distance / CellsPerSecond * WalkFramesPerSecond) % 4f;
+                if (moveProgress < 1f) break;
+                position = destination;
+                UpdateSortOrder();
+                EmitPosition(read().Run);
+                // Loading, hiding or changing maps during a callback cancels the old movement budget.
+                if (version != movementVersion || locked || !visible) return;
+                // Start the next cell immediately, including when this frame lands exactly on a boundary.
+                if (!TryStartStep(axis)) { StopWalking(); return; }
+            }
+            if (!moving) return;
+            int phase = Mathf.FloorToInt(walkPhase);
+            UpdateHeroFrame(phase == 0 ? 0 : phase == 2 ? 2 : 1);
+            hero.transform.position = Vector3.Lerp(moveFrom, World(destination), moveProgress);
+            hero.transform.rotation = Quaternion.identity;
+            shadow.transform.position = hero.transform.position + new Vector3(0, -.52f, .01f);
+        }
+        private void StopWalking()
+        {
+            moving = false; moveProgress = 0; walkPhase = 0; destination = position;
+            UpdateHero();
+        }
+        private void CancelWalk()
+        {
+            movementVersion++; moving = false; moveProgress = 0; walkPhase = 0; destination = position;
         }
         private string MovementReason(Vector2Int target, RunState run)
         {
@@ -181,12 +222,18 @@ namespace HGame.Unity
             if (hero == null) return;
             UpdateHeroFrame(1); hero.transform.position = World(position);
             hero.transform.rotation = Quaternion.identity;
+            UpdateSortOrder();
+            shadow.transform.position = World(position) + new Vector3(0, -.52f, .01f);
+        }
+        private void UpdateSortOrder()
+        {
+            if (hero == null || shadow == null) return;
             hero.sortingOrder = position.y * 10 + 5;
             shadow.sortingOrder = hero.sortingOrder - 1;
-            shadow.transform.position = World(position) + new Vector3(0, -.52f, .01f);
         }
         private void UpdateHeroFrame(int frame)
         {
+            currentWalkFrame = frame;
             if (hero == null) return;
             string key = facing == 0 ? "hero_up" : facing == 1 ? "hero_right" : facing == 3 ? "hero_left" : "hero_down";
             hero.sprite = GetSprite(key + "_" + frame); Size(hero, 1.2f);
@@ -269,8 +316,9 @@ namespace HGame.Unity
             Rect viewport = worldCamera.pixelRect;
             float aspect = viewport.height > 0 ? viewport.width / viewport.height : 4f / 3f;
             worldCamera.aspect = aspect;
-            float halfH = worldCamera.orthographicSize, halfW = halfH * aspect;
-            float x = map.Width < halfW * 2 ? (map.Width - 1) * .5f : Mathf.Clamp(hero.transform.position.x, -.5f + halfW, map.Width - .5f - halfW);
+            float halfH = worldCamera.orthographicSize, fullHalfW = halfH * aspect, playHalfW = fullHalfW * .75f;
+            float playCenter = map.Width < playHalfW * 2 ? (map.Width - 1) * .5f : Mathf.Clamp(hero.transform.position.x, -.5f + playHalfW, map.Width - .5f - playHalfW);
+            float x = playCenter + fullHalfW * .25f;
             float top = .5f, bottom = -map.Height + .5f;
             float y = map.Height < halfH * 2 ? -(map.Height - 1) * .5f : Mathf.Clamp(hero.transform.position.y, bottom + halfH, top - halfH);
             worldCamera.transform.position = new Vector3(x, y, -10);

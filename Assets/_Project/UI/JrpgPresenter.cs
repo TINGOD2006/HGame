@@ -23,7 +23,7 @@ namespace HGame.Unity
         public bool ResultVisible { get; private set; }
         public bool GalleryVisible { get; private set; }
         public bool WindowVisible { get { return window != "" || modal != null || GalleryVisible; } }
-        private RectTransform canvas, content, modal, portraitRoot;
+        private RectTransform canvas, content, modal, portraitRoot, sceneBackdrop;
         private TextMeshProUGUI hintText;
         private string status = "一座城鎮，一段新的旅程。", window = "", selected = "";
         private GallerySession gallery;
@@ -47,6 +47,7 @@ namespace HGame.Unity
                 profile=Repository.LoadProfile(); BuildCanvas(); Refresh();
                 if(args.Contains("--jrpg-smoke") || args.Contains("--jrpg-resume")) gameObject.AddComponent<JrpgSmokeRunner>();
                 if(args.Contains("--heroine-preview")) gameObject.AddComponent<HeroinePreviewCapture>();
+                if(args.Contains("--walk-check")) gameObject.AddComponent<WalkPresentationCheck>();
             }
             catch(Exception e) { Debug.LogException(e); BuildCanvas(); Confirm("啟動失敗",e.Message,()=>Application.Quit(1),false); }
         }
@@ -57,6 +58,7 @@ namespace HGame.Unity
             canvas=(RectTransform)go.transform; go.GetComponent<Canvas>().renderMode=RenderMode.ScreenSpaceOverlay;
             var scale=go.GetComponent<CanvasScaler>(); scale.uiScaleMode=CanvasScaler.ScaleMode.ScaleWithScreenSize;
             scale.referenceResolution=new Vector2(1280,720); scale.matchWidthOrHeight=.5f;
+            sceneBackdrop=UiKit.Rect("SceneBackdrop",canvas,0,0,1280,720);
             content=UiKit.Rect("Content",canvas,0,0,960,720); content.gameObject.AddComponent<RectMask2D>();
             portraitRoot=UiKit.Rect("HeroineSidebar",canvas,960,0,320,720);
             if(FindFirstObjectByType<EventSystem>()==null)
