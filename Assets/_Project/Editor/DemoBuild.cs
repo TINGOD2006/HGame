@@ -15,11 +15,22 @@ namespace HGame.Editor
 {
     public static class DemoBuild
     {
+        private const string BuildDirectory = "Builds/HGameDemo-0.2.0";
+        private const string VerificationDirectory = "verification/0.2.0";
         [MenuItem("HGame/Prepare Demo")]
         public static void Prepare()
         {
             Directory.CreateDirectory("Assets/_Project/Scenes");
             Directory.CreateDirectory("Assets/_Project/Resources/Fonts");
+            foreach (var guid in AssetDatabase.FindAssets("t:Texture2D", new[] { "Assets/_Project/Resources/Art/Jrpg" }))
+            {
+                var path = AssetDatabase.GUIDToAssetPath(guid);
+                var importer = AssetImporter.GetAtPath(path) as TextureImporter;
+                if (importer == null) continue;
+                importer.filterMode = FilterMode.Point; importer.mipmapEnabled = false;
+                importer.textureCompression = TextureImporterCompression.Uncompressed; importer.isReadable = true;
+                importer.SaveAndReimport();
+            }
             var tmpPath = UnityEditor.PackageManager.PackageInfo.FindForAssembly(typeof(TMP_FontAsset).Assembly).resolvedPath;
             if (AssetDatabase.LoadAssetAtPath<TMP_Settings>("Assets/TextMesh Pro/Resources/TMP Settings.asset") == null)
                 AssetDatabase.ImportPackage(Path.Combine(tmpPath, "Package Resources/TMP Essential Resources.unitypackage"), false);
@@ -61,7 +72,7 @@ namespace HGame.Editor
             EditorSceneManager.SaveScene(scene, "Assets/_Project/Scenes/Demo.unity");
             EditorBuildSettings.scenes = new[] { new EditorBuildSettingsScene("Assets/_Project/Scenes/Demo.unity", true) };
             PlayerSettings.companyName = "TINGOD"; PlayerSettings.productName = "HGame System Demo";
-            PlayerSettings.bundleVersion = "0.1.0"; PlayerSettings.defaultScreenWidth = 1280; PlayerSettings.defaultScreenHeight = 720;
+            PlayerSettings.bundleVersion = "0.2.0"; PlayerSettings.defaultScreenWidth = 1280; PlayerSettings.defaultScreenHeight = 720;
             PlayerSettings.fullScreenMode = FullScreenMode.Windowed; PlayerSettings.resizableWindow = true;
             PlayerSettings.runInBackground = true; PlayerSettings.SetScriptingBackend(NamedBuildTarget.Standalone, ScriptingImplementation.Mono2x);
             AssetDatabase.SaveAssets(); AssetDatabase.Refresh();
@@ -74,12 +85,12 @@ namespace HGame.Editor
         {
             try
             {
-                Prepare(); Directory.CreateDirectory("Builds/HGameDemo"); Directory.CreateDirectory("verification");
+                Prepare(); Directory.CreateDirectory(BuildDirectory); Directory.CreateDirectory(VerificationDirectory);
                 var report = BuildPipeline.BuildPlayer(new BuildPlayerOptions {
                     scenes = new[] { "Assets/_Project/Scenes/Demo.unity" }, target = BuildTarget.StandaloneWindows64,
-                    locationPathName = "Builds/HGameDemo/HGameDemo.exe", options = BuildOptions.CompressWithLz4
+                    locationPathName = BuildDirectory + "/HGameDemo.exe", options = BuildOptions.CompressWithLz4
                 });
-                File.WriteAllText("verification/build-report.json", JsonUtility.ToJson(new BuildSummaryRecord {
+                File.WriteAllText(VerificationDirectory + "/build-report.json", JsonUtility.ToJson(new BuildSummaryRecord {
                     Result = report.summary.result.ToString(), Errors = report.summary.totalErrors,
                     Warnings = report.summary.totalWarnings, Bytes = report.summary.totalSize,
                     Seconds = report.summary.totalTime.TotalSeconds, Output = report.summary.outputPath
@@ -88,6 +99,8 @@ namespace HGame.Editor
                 CopyLicense("Assets/_Project/Fonts/OFL.txt", "OFL-Noto.txt");
                 CopyLicense("Assets/_Project/Art/Kenney/kenney_ui-pack-License.txt", "Kenney-UI-CC0.txt");
                 CopyLicense("Assets/_Project/Art/Kenney/kenney_game-icons-license.txt", "Kenney-Icons-CC0.txt");
+                CopyLicense("Assets/_Project/Resources/Art/Jrpg/town-License.txt", "Kenney-TinyTown-CC0.txt");
+                CopyLicense("Assets/_Project/Resources/Art/Jrpg/dungeon-License.txt", "Kenney-TinyDungeon-CC0.txt");
                 CopyLicense("Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt", "OFL-LiberationSans.txt");
                 var uguiPath = UnityEditor.PackageManager.PackageInfo.FindForAssembly(typeof(TMP_FontAsset).Assembly).resolvedPath;
                 CopyLicense(Path.Combine(uguiPath, "LICENSE.md"), "Unity-UGUI-License.txt");
@@ -97,8 +110,8 @@ namespace HGame.Editor
         }
         private static void CopyLicense(string source, string name)
         {
-            Directory.CreateDirectory("Builds/HGameDemo/ThirdParty");
-            File.Copy(source, "Builds/HGameDemo/ThirdParty/" + name, true);
+            Directory.CreateDirectory(BuildDirectory + "/ThirdParty");
+            File.Copy(source, BuildDirectory + "/ThirdParty/" + name, true);
         }
         [Serializable] private class BuildSummaryRecord
         { public string Result, Output; public int Errors, Warnings; public ulong Bytes; public double Seconds; }

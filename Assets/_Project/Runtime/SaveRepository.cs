@@ -53,7 +53,11 @@ namespace HGame.Unity
     {
         private readonly ISaveStore store;
         private readonly GameData data;
-        public SaveRepository(GameData data, ISaveStore store) { this.data = data; this.store = store; RecoverPendingLoad(); }
+        private readonly Func<GameSnapshot, bool> positionSafe;
+        private readonly Func<RunState, WorldPresentationState> resolvePosition;
+        public SaveRepository(GameData data, ISaveStore store, Func<GameSnapshot, bool> positionSafe = null,
+            Func<RunState, WorldPresentationState> resolvePosition = null)
+        { this.data = data; this.store = store; this.positionSafe = positionSafe; this.resolvePosition = resolvePosition; RecoverPendingLoad(); }
         private static string MetaPath(string campaign)
         {
             foreach (var c in campaign) if (!char.IsLetterOrDigit(c) && c != '-' && c != '_') throw new InvalidDataException("旅程 ID 不合法。");
@@ -74,6 +78,7 @@ namespace HGame.Unity
         }
         public bool CanSave(GameSnapshot snapshot)
         {
+            if (positionSafe != null && !positionSafe(snapshot)) return false;
             if (snapshot.Run.Location == GameLocation.Town) return true;
             return snapshot.Run.Location == GameLocation.Dungeon && snapshot.Run.PendingSupplyNodeId == "" &&
                 (data.Node(snapshot.Run.CurrentNodeId)?.Kind == "Save" || snapshot.Run.Battle != null && snapshot.Run.Battle.IsTerminal);
@@ -119,6 +124,7 @@ namespace HGame.Unity
                     if (plan.DiscardedNodeIds.Contains(experience.TimelineNodeId) && !outcome.Meta.Echoes.Exists(x => x.Id == experience.Id))
                         outcome.Meta.Echoes.Add(StateCloner.Clone(experience));
             if (outcome.Run.Chapter == 2 && outcome.Meta.SpecialMemoryIds.Contains("memory_c2")) outcome.Run.DemoSegmentVisited = true;
+            if (resolvePosition != null) outcome.Run.World = resolvePosition(outcome.Run);
             var transaction = new LoadTransaction { Id = transactionId, Target = outcome.Run, ResultMeta = outcome.Meta };
             store.WriteAtomic("pending-load.json", SaveCodec.Encode(transaction));
             CompleteTransaction(transaction);
@@ -144,6 +150,7 @@ namespace HGame.Unity
         }
         private void CompleteTransaction(LoadTransaction tx)
         {
+            if (resolvePosition != null) tx.Target.World = resolvePosition(tx.Target);
             store.WriteAtomic(MetaPath(tx.Target.CampaignId), SaveCodec.Encode(new MetaEnvelope { Meta = tx.ResultMeta }));
             SaveRun("auto", tx.Target);
             store.WriteAtomic("pending-load.json", SaveCodec.Encode(new LoadTransaction()));

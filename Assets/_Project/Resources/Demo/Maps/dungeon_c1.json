@@ -1,0 +1,379 @@
+{
+  "Id": "dungeon_c1",
+  "Name": "第一章・回廊試煉",
+  "Theme": "dungeon",
+  "Chapter": 1,
+  "Width": 48,
+  "Height": 40,
+  "SpawnX": 5,
+  "SpawnY": 6,
+  "Ground": [
+    "################################################",
+    "################################################",
+    "################################################",
+    "###fffffff#####fffffff#####fffffff#####fffffff##",
+    "###fffffff#####fffffff#####fffffff#####fffffff##",
+    "###fffffff#####fffffff#####fffffff#####fffffff##",
+    "###fffffffffffffffffffffffffffffffffffffffffff##",
+    "###fffffff#####fffffff#####fffffff#####fffffff##",
+    "###fffffff#####fffffff#####fffffff#####fffffff##",
+    "###fffffff#####fffffff#####fffffff#####fffffff##",
+    "##########################################f#####",
+    "##########################################f#####",
+    "##########################################f#####",
+    "##########################################f#####",
+    "##########################################f#####",
+    "##########################################f#####",
+    "###fffffff#####fffffff#####fffffff#####fffffff##",
+    "###fffffff#####fffffff#####fffffff#####fffffff##",
+    "###fffffff#####fffffff#####fffffff#####fffffff##",
+    "###fffffffffffffffffffffffffffffffffffffffffff##",
+    "###fffffff#####fffffff#####fffffff#####fffffff##",
+    "###fffffff#####fffffff#####fffffff#####fffffff##",
+    "###fffffff#####fffffff#####fffffff#####fffffff##",
+    "######f#########################################",
+    "######f#########################################",
+    "######f#########################################",
+    "######f#########################################",
+    "######f#########################################",
+    "######f#########################################",
+    "###fffffff#####fffffff#####fffffff#####fffffff##",
+    "###fffffff#####fffffff#####fffffff#####fffffff##",
+    "###fffffff#####fffffff#####fffffff#####fffffff##",
+    "###fffffffffffffffffffffffffffffffffffffffffff##",
+    "###fffffff#####fffffff#####fffffff#####fffffff##",
+    "###fffffff#####fffffff#####fffffff#####fffffff##",
+    "###fffffff#####fffffff#####fffffff#####fffffff##",
+    "##########################################f#####",
+    "##########################################f#####",
+    "################################################",
+    "################################################"
+  ],
+  "Decorations": [
+    {
+      "X": 4,
+      "Y": 4,
+      "SpriteKey": "torch",
+      "Blocks": false
+    },
+    {
+      "X": 8,
+      "Y": 8,
+      "SpriteKey": "rock",
+      "Blocks": true
+    },
+    {
+      "X": 16,
+      "Y": 4,
+      "SpriteKey": "torch",
+      "Blocks": false
+    },
+    {
+      "X": 20,
+      "Y": 8,
+      "SpriteKey": "rock",
+      "Blocks": true
+    },
+    {
+      "X": 28,
+      "Y": 4,
+      "SpriteKey": "torch",
+      "Blocks": false
+    },
+    {
+      "X": 32,
+      "Y": 8,
+      "SpriteKey": "rock",
+      "Blocks": true
+    },
+    {
+      "X": 40,
+      "Y": 4,
+      "SpriteKey": "torch",
+      "Blocks": false
+    },
+    {
+      "X": 44,
+      "Y": 8,
+      "SpriteKey": "rock",
+      "Blocks": true
+    },
+    {
+      "X": 40,
+      "Y": 17,
+      "SpriteKey": "torch",
+      "Blocks": false
+    },
+    {
+      "X": 44,
+      "Y": 21,
+      "SpriteKey": "rock",
+      "Blocks": true
+    },
+    {
+      "X": 28,
+      "Y": 17,
+      "SpriteKey": "torch",
+      "Blocks": false
+    },
+    {
+      "X": 32,
+      "Y": 21,
+      "SpriteKey": "rock",
+      "Blocks": true
+    },
+    {
+      "X": 16,
+      "Y": 17,
+      "SpriteKey": "torch",
+      "Blocks": false
+    },
+    {
+      "X": 20,
+      "Y": 21,
+      "SpriteKey": "rock",
+      "Blocks": true
+    },
+    {
+      "X": 4,
+      "Y": 17,
+      "SpriteKey": "torch",
+      "Blocks": false
+    },
+    {
+      "X": 8,
+      "Y": 21,
+      "SpriteKey": "rock",
+      "Blocks": true
+    },
+    {
+      "X": 4,
+      "Y": 30,
+      "SpriteKey": "torch",
+      "Blocks": false
+    },
+    {
+      "X": 8,
+      "Y": 34,
+      "SpriteKey": "rock",
+      "Blocks": true
+    },
+    {
+      "X": 16,
+      "Y": 30,
+      "SpriteKey": "torch",
+      "Blocks": false
+    },
+    {
+      "X": 20,
+      "Y": 34,
+      "SpriteKey": "rock",
+      "Blocks": true
+    },
+    {
+      "X": 28,
+      "Y": 30,
+      "SpriteKey": "torch",
+      "Blocks": false
+    },
+    {
+      "X": 32,
+      "Y": 34,
+      "SpriteKey": "rock",
+      "Blocks": true
+    },
+    {
+      "X": 40,
+      "Y": 30,
+      "SpriteKey": "torch",
+      "Blocks": false
+    },
+    {
+      "X": 44,
+      "Y": 34,
+      "SpriteKey": "rock",
+      "Blocks": true
+    }
+  ],
+  "Interactions": [
+    {
+      "Id": "dungeon_c1_return",
+      "Label": "安全返城",
+      "Kind": "Return",
+      "NodeId": "",
+      "SpriteKey": "door",
+      "X": 4,
+      "Y": 6
+    },
+    {
+      "Id": "map_c1_n01",
+      "Label": "第一階段・記憶戰鬥",
+      "Kind": "Node",
+      "NodeId": "c1_n01",
+      "SpriteKey": "enemy",
+      "X": 6,
+      "Y": 5
+    },
+    {
+      "Id": "map_c1_n02",
+      "Label": "第一存檔點",
+      "Kind": "Node",
+      "NodeId": "c1_n02",
+      "SpriteKey": "save",
+      "X": 18,
+      "Y": 5
+    },
+    {
+      "Id": "map_c1_n03",
+      "Label": "第一補給點",
+      "Kind": "Node",
+      "NodeId": "c1_n03",
+      "SpriteKey": "chest",
+      "X": 30,
+      "Y": 5
+    },
+    {
+      "Id": "map_c1_n04",
+      "Label": "第二存檔點",
+      "Kind": "Node",
+      "NodeId": "c1_n04",
+      "SpriteKey": "save",
+      "X": 42,
+      "Y": 5
+    },
+    {
+      "Id": "map_c1_n05",
+      "Label": "第二階段・多敵戰鬥",
+      "Kind": "Node",
+      "NodeId": "c1_n05",
+      "SpriteKey": "enemy",
+      "X": 42,
+      "Y": 18
+    },
+    {
+      "Id": "map_c1_n06",
+      "Label": "第三存檔點",
+      "Kind": "Node",
+      "NodeId": "c1_n06",
+      "SpriteKey": "save",
+      "X": 30,
+      "Y": 18
+    },
+    {
+      "Id": "map_c1_n07",
+      "Label": "第二補給點",
+      "Kind": "Node",
+      "NodeId": "c1_n07",
+      "SpriteKey": "chest",
+      "X": 18,
+      "Y": 18
+    },
+    {
+      "Id": "map_c1_n08",
+      "Label": "第四存檔點",
+      "Kind": "Node",
+      "NodeId": "c1_n08",
+      "SpriteKey": "save",
+      "X": 6,
+      "Y": 18
+    },
+    {
+      "Id": "map_c1_n09",
+      "Label": "第三階段・多敵戰鬥",
+      "Kind": "Node",
+      "NodeId": "c1_n09",
+      "SpriteKey": "enemy",
+      "X": 6,
+      "Y": 31
+    },
+    {
+      "Id": "map_c1_n10",
+      "Label": "第五存檔點",
+      "Kind": "Node",
+      "NodeId": "c1_n10",
+      "SpriteKey": "save",
+      "X": 18,
+      "Y": 31
+    },
+    {
+      "Id": "map_c1_n11",
+      "Label": "第一章首領",
+      "Kind": "Node",
+      "NodeId": "c1_n11",
+      "SpriteKey": "boss",
+      "X": 30,
+      "Y": 31
+    },
+    {
+      "Id": "map_c1_n12",
+      "Label": "第六存檔點",
+      "Kind": "Node",
+      "NodeId": "c1_n12",
+      "SpriteKey": "save",
+      "X": 42,
+      "Y": 31
+    }
+  ],
+  "Gates": [
+    {
+      "X": 10,
+      "Y": 6,
+      "NodeId": "c1_n01"
+    },
+    {
+      "X": 22,
+      "Y": 6,
+      "NodeId": "c1_n02"
+    },
+    {
+      "X": 34,
+      "Y": 6,
+      "NodeId": "c1_n03"
+    },
+    {
+      "X": 42,
+      "Y": 10,
+      "NodeId": "c1_n04"
+    },
+    {
+      "X": 38,
+      "Y": 19,
+      "NodeId": "c1_n05"
+    },
+    {
+      "X": 26,
+      "Y": 19,
+      "NodeId": "c1_n06"
+    },
+    {
+      "X": 14,
+      "Y": 19,
+      "NodeId": "c1_n07"
+    },
+    {
+      "X": 6,
+      "Y": 23,
+      "NodeId": "c1_n08"
+    },
+    {
+      "X": 10,
+      "Y": 32,
+      "NodeId": "c1_n09"
+    },
+    {
+      "X": 22,
+      "Y": 32,
+      "NodeId": "c1_n10"
+    },
+    {
+      "X": 34,
+      "Y": 32,
+      "NodeId": "c1_n11"
+    },
+    {
+      "X": 42,
+      "Y": 36,
+      "NodeId": "c1_n12"
+    }
+  ]
+}

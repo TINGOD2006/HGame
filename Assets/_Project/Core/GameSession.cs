@@ -39,6 +39,12 @@ namespace HGame.Core
         public RunState CaptureRun() { return StateCloner.Clone(run); }
         public MetaState CaptureMeta() { return StateCloner.Clone(meta); }
         public ProfileState CaptureProfile() { return StateCloner.Clone(profile); }
+        public void UpdatePresentation(WorldPresentationState value)
+        {
+            if (value == null || value.Version != 1 || value.Chapter != run.Chapter || value.X < 0 || value.Y < 0 || value.Facing < 0 || value.Facing > 3)
+                throw new ArgumentException("地圖位置不合法。");
+            run.World = StateCloner.Clone(value);
+        }
         public CommandResult Load(RunState target, LoadIntent intent, string transactionId)
         {
             if (target == null) return CommandResult.Reject("存檔不存在。");

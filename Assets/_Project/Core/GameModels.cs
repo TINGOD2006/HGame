@@ -30,11 +30,17 @@ namespace HGame.Core
         public string CurrentNodeId = "", LastSaveNodeId = "", PendingSupplyNodeId = "";
         public int ExpeditionNewNodes;
         public BattleState Battle;
+        public WorldPresentationState World = new WorldPresentationState();
         public List<InventoryEntry> Inventory = new List<InventoryEntry>();
         public List<ChapterProgress> Chapters = new List<ChapterProgress>();
         public List<string> ClaimedEvents = new List<string>();
         public List<ExperienceRecord> Experiences = new List<ExperienceRecord>();
         public List<string> Journal = new List<string>();
+    }
+    [Serializable] public class WorldPresentationState
+    {
+        public int Version = 1, X, Y, Facing = 2, Chapter = 1;
+        public string MapId = "", AnchorNodeId = "";
     }
     [Serializable] public class InventoryEntry { public string Id = ""; public int Count; }
     [Serializable] public class ChapterProgress

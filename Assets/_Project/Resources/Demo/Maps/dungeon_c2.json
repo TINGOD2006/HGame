@@ -1,0 +1,149 @@
+{
+  "Id": "dungeon_c2",
+  "Name": "第二章・記憶回廊",
+  "Theme": "dungeon",
+  "Chapter": 2,
+  "Width": 24,
+  "Height": 18,
+  "SpawnX": 4,
+  "SpawnY": 5,
+  "Ground": [
+    "########################",
+    "########################",
+    "##fffffff#####fffffff###",
+    "##fffffff#####fffffff###",
+    "##fffffff#####fffffff###",
+    "##fffffffffffffffffff###",
+    "##fffffff#####fffffff###",
+    "##fffffff#####fffffff###",
+    "##fffffff#####fffffff###",
+    "#################f######",
+    "##fffffff#####fffffff###",
+    "##fffffff#####fffffff###",
+    "##fffffff#####fffffff###",
+    "#ffffffffffffffffffff###",
+    "##fffffff#####fffffff###",
+    "##fffffff#####fffffff###",
+    "##fffffff#####fffffff###",
+    "########################"
+  ],
+  "Decorations": [
+    {
+      "X": 3,
+      "Y": 3,
+      "SpriteKey": "torch",
+      "Blocks": false
+    },
+    {
+      "X": 7,
+      "Y": 7,
+      "SpriteKey": "rock",
+      "Blocks": true
+    },
+    {
+      "X": 15,
+      "Y": 3,
+      "SpriteKey": "torch",
+      "Blocks": false
+    },
+    {
+      "X": 19,
+      "Y": 7,
+      "SpriteKey": "rock",
+      "Blocks": true
+    },
+    {
+      "X": 15,
+      "Y": 11,
+      "SpriteKey": "torch",
+      "Blocks": false
+    },
+    {
+      "X": 19,
+      "Y": 15,
+      "SpriteKey": "rock",
+      "Blocks": true
+    },
+    {
+      "X": 3,
+      "Y": 11,
+      "SpriteKey": "torch",
+      "Blocks": false
+    },
+    {
+      "X": 7,
+      "Y": 15,
+      "SpriteKey": "rock",
+      "Blocks": true
+    }
+  ],
+  "Interactions": [
+    {
+      "Id": "dungeon_c2_return",
+      "Label": "安全返城",
+      "Kind": "Return",
+      "NodeId": "",
+      "SpriteKey": "door",
+      "X": 3,
+      "Y": 5
+    },
+    {
+      "Id": "map_c2_n01",
+      "Label": "第二章・記憶驗證",
+      "Kind": "Node",
+      "NodeId": "c2_n01",
+      "SpriteKey": "enemy",
+      "X": 5,
+      "Y": 4
+    },
+    {
+      "Id": "map_c2_n02",
+      "Label": "驗證段存檔點一",
+      "Kind": "Node",
+      "NodeId": "c2_n02",
+      "SpriteKey": "save",
+      "X": 17,
+      "Y": 4
+    },
+    {
+      "Id": "map_c2_n03",
+      "Label": "驗證段補給點",
+      "Kind": "Node",
+      "NodeId": "c2_n03",
+      "SpriteKey": "chest",
+      "X": 17,
+      "Y": 12
+    },
+    {
+      "Id": "map_c2_n04",
+      "Label": "驗證段存檔點二",
+      "Kind": "Node",
+      "NodeId": "c2_n04",
+      "SpriteKey": "save",
+      "X": 5,
+      "Y": 12
+    }
+  ],
+  "Gates": [
+    {
+      "X": 9,
+      "Y": 5,
+      "NodeId": "c2_n01"
+    },
+    {
+      "X": 17,
+      "Y": 9,
+      "NodeId": "c2_n02"
+    },
+    {
+      "X": 13,
+      "Y": 13,
+      "NodeId": "c2_n03"
+    },
+    {
+      "X": 1,
+      "Y": 13,
+      "NodeId": "c2_n04"
+    }
+  ]
+}

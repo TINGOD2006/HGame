@@ -1,0 +1,90 @@
+{
+  "Id": "inn",
+  "Name": "旅店客房",
+  "Theme": "inn",
+  "Chapter": 0,
+  "Width": 14,
+  "Height": 10,
+  "SpawnX": 6,
+  "SpawnY": 6,
+  "Ground": [
+    "##############",
+    "#ffffffffffff#",
+    "#ffffffffffff#",
+    "#ffffccccffff#",
+    "#ffffccccffff#",
+    "#ffffccccffff#",
+    "#ffffccccffff#",
+    "#ffffccccffff#",
+    "#ffffffffffff#",
+    "##############"
+  ],
+  "Decorations": [
+    {
+      "X": 2,
+      "Y": 2,
+      "SpriteKey": "table",
+      "Blocks": true
+    },
+    {
+      "X": 3,
+      "Y": 2,
+      "SpriteKey": "table",
+      "Blocks": true
+    },
+    {
+      "X": 11,
+      "Y": 6,
+      "SpriteKey": "chest",
+      "Blocks": true
+    },
+    {
+      "X": 1,
+      "Y": 4,
+      "SpriteKey": "torch",
+      "Blocks": true
+    },
+    {
+      "X": 12,
+      "Y": 4,
+      "SpriteKey": "torch",
+      "Blocks": true
+    },
+    {
+      "X": 9,
+      "Y": 2,
+      "SpriteKey": "bed",
+      "Blocks": true
+    }
+  ],
+  "Interactions": [
+    {
+      "Id": "inn_rest",
+      "Label": "休息至次日",
+      "Kind": "Rest",
+      "NodeId": "",
+      "SpriteKey": "bed",
+      "X": 10,
+      "Y": 3
+    },
+    {
+      "Id": "inn_exit",
+      "Label": "返回城鎮",
+      "Kind": "ExitInn",
+      "NodeId": "",
+      "SpriteKey": "door",
+      "X": 6,
+      "Y": 8
+    },
+    {
+      "Id": "inn_memory",
+      "Label": "記憶異樣",
+      "Kind": "Memory",
+      "NodeId": "",
+      "SpriteKey": "sign",
+      "X": 3,
+      "Y": 6
+    }
+  ],
+  "Gates": []
+}

@@ -1,0 +1,20 @@
+{
+    "Build": "0.2.0",
+    "Status": "passed",
+    "Error": "",
+    "SaveRoot": "C:/Users/TINGOD/AppData/LocalLow/TINGOD/HGame System Demo\\HGameDemo\\Verification\\jrpg-1280-20261022110316498",
+    "CampaignId": "fcfd11c4b849459e90a540c699676f61",
+    "StartedUtc": "2026-10-22T11:03:54.4627000Z",
+    "FinishedUtc": "2026-10-22T11:03:55.1989501Z",
+    "Width": 1280,
+    "Height": 720,
+    "Checks": [
+        "UI 可操作：Continue",
+        "獨立程序恢復同旅程",
+        "獨立程序恢復安全位置",
+        "正常重啟繼續不增加回退",
+        "UI 可操作：PlayGallery",
+        "重啟後畫廊可播"
+    ],
+    "Method": "Windows Player：合成鍵盤／指標事件與正式命令；未宣稱人工操作。"
+}

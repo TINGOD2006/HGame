@@ -1,0 +1,401 @@
+{
+  "Id": "town",
+  "Name": "溪畔小鎮",
+  "Theme": "town",
+  "Chapter": 0,
+  "Width": 36,
+  "Height": 24,
+  "SpawnX": 18,
+  "SpawnY": 13,
+  "Ground": [
+    "####################################",
+    "#................===...............#",
+    "#................===...............#",
+    "#................===...............#",
+    "#................===...............#",
+    "#.....###........===.......###.....#",
+    "#.....###........===.......###.....#",
+    "#.....###........===.......###.....#",
+    "#......=.........===........=......#",
+    "#......=.........===........=......#",
+    "#......=.........===........=......#",
+    "#......=.........===........=......#",
+    "#==================================#",
+    "#==================================#",
+    "#==================================#",
+    "#.....=......=...====...........=..#",
+    "#....###....###..================..#",
+    "#....###....###..===.....fffffff=..#",
+    "#....###....###..===.....f~~~~~f=..#",
+    "#.....=......=...===.....f~~~~~f=..#",
+    "#.....==============.....f~~~~~f=..#",
+    "#................===.....fffffff=..#",
+    "#................===...............#",
+    "####################################"
+  ],
+  "Decorations": [
+    {
+      "X": 2,
+      "Y": 2,
+      "SpriteKey": "tree",
+      "Blocks": true
+    },
+    {
+      "X": 3,
+      "Y": 4,
+      "SpriteKey": "tree",
+      "Blocks": true
+    },
+    {
+      "X": 12,
+      "Y": 3,
+      "SpriteKey": "tree",
+      "Blocks": true
+    },
+    {
+      "X": 13,
+      "Y": 6,
+      "SpriteKey": "tree",
+      "Blocks": true
+    },
+    {
+      "X": 21,
+      "Y": 3,
+      "SpriteKey": "tree",
+      "Blocks": true
+    },
+    {
+      "X": 23,
+      "Y": 5,
+      "SpriteKey": "tree",
+      "Blocks": true
+    },
+    {
+      "X": 33,
+      "Y": 3,
+      "SpriteKey": "tree",
+      "Blocks": true
+    },
+    {
+      "X": 33,
+      "Y": 7,
+      "SpriteKey": "tree",
+      "Blocks": true
+    },
+    {
+      "X": 2,
+      "Y": 9,
+      "SpriteKey": "tree",
+      "Blocks": true
+    },
+    {
+      "X": 11,
+      "Y": 9,
+      "SpriteKey": "tree",
+      "Blocks": true
+    },
+    {
+      "X": 22,
+      "Y": 9,
+      "SpriteKey": "tree",
+      "Blocks": true
+    },
+    {
+      "X": 33,
+      "Y": 10,
+      "SpriteKey": "tree",
+      "Blocks": true
+    },
+    {
+      "X": 2,
+      "Y": 17,
+      "SpriteKey": "tree",
+      "Blocks": true
+    },
+    {
+      "X": 2,
+      "Y": 21,
+      "SpriteKey": "tree",
+      "Blocks": true
+    },
+    {
+      "X": 10,
+      "Y": 22,
+      "SpriteKey": "tree",
+      "Blocks": true
+    },
+    {
+      "X": 22,
+      "Y": 20,
+      "SpriteKey": "tree",
+      "Blocks": true
+    },
+    {
+      "X": 23,
+      "Y": 22,
+      "SpriteKey": "tree",
+      "Blocks": true
+    },
+    {
+      "X": 34,
+      "Y": 22,
+      "SpriteKey": "tree",
+      "Blocks": true
+    },
+    {
+      "X": 4,
+      "Y": 10,
+      "SpriteKey": "bush",
+      "Blocks": true
+    },
+    {
+      "X": 5,
+      "Y": 10,
+      "SpriteKey": "bush",
+      "Blocks": true
+    },
+    {
+      "X": 9,
+      "Y": 10,
+      "SpriteKey": "bush",
+      "Blocks": true
+    },
+    {
+      "X": 10,
+      "Y": 10,
+      "SpriteKey": "bush",
+      "Blocks": true
+    },
+    {
+      "X": 25,
+      "Y": 10,
+      "SpriteKey": "bush",
+      "Blocks": true
+    },
+    {
+      "X": 26,
+      "Y": 10,
+      "SpriteKey": "bush",
+      "Blocks": true
+    },
+    {
+      "X": 30,
+      "Y": 10,
+      "SpriteKey": "bush",
+      "Blocks": true
+    },
+    {
+      "X": 31,
+      "Y": 10,
+      "SpriteKey": "bush",
+      "Blocks": true
+    },
+    {
+      "X": 22,
+      "Y": 17,
+      "SpriteKey": "bush",
+      "Blocks": true
+    },
+    {
+      "X": 23,
+      "Y": 17,
+      "SpriteKey": "bush",
+      "Blocks": true
+    },
+    {
+      "X": 24,
+      "Y": 21,
+      "SpriteKey": "bush",
+      "Blocks": true
+    },
+    {
+      "X": 31,
+      "Y": 22,
+      "SpriteKey": "bush",
+      "Blocks": true
+    },
+    {
+      "X": 5,
+      "Y": 9,
+      "SpriteKey": "flower",
+      "Blocks": false
+    },
+    {
+      "X": 9,
+      "Y": 9,
+      "SpriteKey": "flower",
+      "Blocks": false
+    },
+    {
+      "X": 26,
+      "Y": 9,
+      "SpriteKey": "flower",
+      "Blocks": false
+    },
+    {
+      "X": 30,
+      "Y": 9,
+      "SpriteKey": "flower",
+      "Blocks": false
+    },
+    {
+      "X": 4,
+      "Y": 21,
+      "SpriteKey": "flower",
+      "Blocks": false
+    },
+    {
+      "X": 8,
+      "Y": 21,
+      "SpriteKey": "flower",
+      "Blocks": false
+    },
+    {
+      "X": 11,
+      "Y": 21,
+      "SpriteKey": "flower",
+      "Blocks": false
+    },
+    {
+      "X": 15,
+      "Y": 21,
+      "SpriteKey": "flower",
+      "Blocks": false
+    },
+    {
+      "X": 24,
+      "Y": 18,
+      "SpriteKey": "flower",
+      "Blocks": false
+    },
+    {
+      "X": 24,
+      "Y": 20,
+      "SpriteKey": "flower",
+      "Blocks": false
+    },
+    {
+      "X": 33,
+      "Y": 18,
+      "SpriteKey": "flower",
+      "Blocks": false
+    },
+    {
+      "X": 33,
+      "Y": 20,
+      "SpriteKey": "flower",
+      "Blocks": false
+    },
+    {
+      "X": 21,
+      "Y": 11,
+      "SpriteKey": "flower",
+      "Blocks": false
+    },
+    {
+      "X": 22,
+      "Y": 11,
+      "SpriteKey": "flower",
+      "Blocks": false
+    },
+    {
+      "X": 17,
+      "Y": 10,
+      "SpriteKey": "sign",
+      "Blocks": true
+    },
+    {
+      "X": 21,
+      "Y": 18,
+      "SpriteKey": "rock",
+      "Blocks": true
+    },
+    {
+      "X": 31,
+      "Y": 17,
+      "SpriteKey": "rock",
+      "Blocks": true
+    },
+    {
+      "X": 7,
+      "Y": 6,
+      "SpriteKey": "house",
+      "Blocks": true
+    },
+    {
+      "X": 28,
+      "Y": 6,
+      "SpriteKey": "house",
+      "Blocks": true
+    },
+    {
+      "X": 6,
+      "Y": 17,
+      "SpriteKey": "house",
+      "Blocks": true
+    },
+    {
+      "X": 13,
+      "Y": 17,
+      "SpriteKey": "house",
+      "Blocks": true
+    }
+  ],
+  "Interactions": [
+    {
+      "Id": "town_inn",
+      "Label": "旅店",
+      "Kind": "Inn",
+      "NodeId": "",
+      "SpriteKey": "door",
+      "X": 7,
+      "Y": 8
+    },
+    {
+      "Id": "town_shop",
+      "Label": "道具商店",
+      "Kind": "Shop",
+      "NodeId": "",
+      "SpriteKey": "door",
+      "X": 28,
+      "Y": 8
+    },
+    {
+      "Id": "town_work",
+      "Label": "工作窗口",
+      "Kind": "Work",
+      "NodeId": "",
+      "SpriteKey": "npc",
+      "X": 6,
+      "Y": 19
+    },
+    {
+      "Id": "town_jobs",
+      "Label": "職業窗口",
+      "Kind": "Jobs",
+      "NodeId": "",
+      "SpriteKey": "npc",
+      "X": 13,
+      "Y": 19
+    },
+    {
+      "Id": "town_depart",
+      "Label": "迷宮入口",
+      "Kind": "Depart",
+      "NodeId": "",
+      "SpriteKey": "sign",
+      "X": 18,
+      "Y": 2
+    },
+    {
+      "Id": "town_memory",
+      "Label": "記憶異樣",
+      "Kind": "Memory",
+      "NodeId": "",
+      "SpriteKey": "npc",
+      "X": 32,
+      "Y": 15
+    }
+  ],
+  "Gates": []
+}

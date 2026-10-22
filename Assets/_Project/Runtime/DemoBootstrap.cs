@@ -7,7 +7,7 @@ namespace HGame.Unity
         private void Awake()
         {
             Application.targetFrameRate = 60; Application.runInBackground = true;
-            if (FindFirstObjectByType<DemoPresenter>() == null) gameObject.AddComponent<DemoPresenter>();
+            if (FindFirstObjectByType<JrpgPresenter>() == null) gameObject.AddComponent<JrpgPresenter>();
         }
     }
 }
